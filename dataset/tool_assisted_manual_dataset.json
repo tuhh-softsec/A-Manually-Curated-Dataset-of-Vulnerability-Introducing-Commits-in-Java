@@ -1,0 +1,3206 @@
+[
+  {
+    "cve": "CVE-2017-2617",
+    "cwe": "CWE-434",
+    "repository": "https://github.com/hawtio/hawtio",
+    "fixing": [
+      "8cf6848f4d4d4917a4551c9aa49dc00f699eb569"
+    ],
+    "introducing": "fb3c03549e0c06dedef5eb97e8a1965369689fe1",
+    "intro_stats": {
+      "fb3c03549e0c06dedef5eb97e8a1965369689fe1": {
+        "add": 474,
+        "del": 44
+      }
+    },
+    "fixing_stats": {
+      "8cf6848f4d4d4917a4551c9aa49dc00f699eb569": {
+        "add": 881,
+        "del": 44
+      }
+    },
+    "days_between": 1085,
+    "fixing_lines": {
+      "hawtio-system/src/main/java/io/hawt/web/GitServlet.java": "172-177"
+    },
+    "introducing_lines": {
+      "hawtio-system/src/main/java/io/hawt/web/GitServlet.java": "111"
+    }
+  },
+  {
+    "cve": "CVE-2019-11274",
+    "cwe": "CWE-79",
+    "repository": "https://github.com/cloudfoundry/uaa",
+    "fixing": [
+      "a34f55fc97a81966faf21e3ae404ec24f1f31cf7"
+    ],
+    "introducing": "bb8ff8f4e8969b46fdacffcd27781d223c8c7244",
+    "intro_stats": {
+      "bb8ff8f4e8969b46fdacffcd27781d223c8c7244": {
+        "add": 320,
+        "del": 7
+      }
+    },
+    "fixing_stats": {
+      "a34f55fc97a81966faf21e3ae404ec24f1f31cf7": {
+        "add": 68,
+        "del": 17
+      }
+    },
+    "days_between": 1836,
+    "fixing_lines": {
+      "server/src/main/java/org/cloudfoundry/identity/uaa/scim/endpoints/ScimGroupEndpoints.java": "168"
+    },
+    "introducing_lines": {
+      "scim/src/main/java/org/cloudfoundry/identity/uaa/scim/endpoints/ScimGroupEndpoints.java": "190"
+    }
+  },
+  {
+    "cve": "CVE-2014-8122",
+    "cwe": "CWE-362",
+    "repository": "https://github.com/weld/core.git",
+    "fixing": [
+      "29fd1107fd30579ad9bb23fae4dc3ba464205745",
+      "6808b11cd6d97c71a2eed754ed4f955acd789086",
+      "8e413202fa1af08c09c580f444e4fd16874f9c65"
+    ],
+    "introducing": "c3179e839d2f031efac7545bfd259fa31a3bcdcb",
+    "intro_stats": {
+      "c3179e839d2f031efac7545bfd259fa31a3bcdcb": {
+        "add": 398,
+        "del": 63
+      }
+    },
+    "fixing_stats": {
+      "29fd1107fd30579ad9bb23fae4dc3ba464205745": {
+        "add": 168,
+        "del": 0
+      },
+      "6808b11cd6d97c71a2eed754ed4f955acd789086": {
+        "add": 3,
+        "del": 1
+      },
+      "8e413202fa1af08c09c580f444e4fd16874f9c65": {
+        "add": 61,
+        "del": 37
+      }
+    },
+    "days_between": 349,
+    "fixing_lines": {
+      "impl/src/main/java/org/jboss/weld/context/cache/RequestScopedCache.java": "75"
+    },
+    "introducing_lines": {}
+  },
+  {
+    "cve": "CVE-2019-10797",
+    "cwe": "NVD-CWE-Other",
+    "repository": "https://github.com/wso2/transport-http",
+    "fixing": [
+      "4a4dc99c7b259646ee5e23b7aaa7c3a8bac959c1"
+    ],
+    "introducing": "f57401801f2ec31e4beefa2f81adfe431e5398e3",
+    "intro_stats": {
+      "f57401801f2ec31e4beefa2f81adfe431e5398e3": {
+        "add": 2332,
+        "del": 0
+      }
+    },
+    "fixing_stats": {
+      "4a4dc99c7b259646ee5e23b7aaa7c3a8bac959c1": {
+        "add": 3,
+        "del": 3
+      }
+    },
+    "days_between": 1528,
+    "fixing_lines": {
+      "components/org.wso2.transport.http.netty/src/main/java/org/wso2/transport/http/netty/contractimpl/common/Util.java": "147;161;205"
+    },
+    "introducing_lines": {
+      "http/netty/component/src/main/java/org/wso2/carbon/transport/http/netty/common/Util.java": "88;112"
+    }
+  },
+  {
+    "cve": "CVE-2008-6682",
+    "cwe": "CWE-79",
+    "repository": "https://github.com/apache/struts",
+    "fixing": [
+      "09147ffad2b3046ed21af0f524c5088e2ac551e",
+      "bd3f2f59c9b09f70aed3ebab6bb69b464ee2d6c",
+      "dae026a0f0511f83852053bae9d5a622e7f8048",
+      "dbc620f84ffb626c6e6738afe0578d617a2b3d3",
+      "93866341ec5396d07b5829be55110ff09dc81bc"
+    ],
+    "introducing": "c01d3a92db7f71f751a0522912d24bcf4a94a1b0",
+    "intro_stats": {
+      "c01d3a92db7f71f751a0522912d24bcf4a94a1b0": {
+        "add": 333578,
+        "del": 0
+      }
+    },
+    "fixing_stats": {
+      "09147ffad2b3046ed21af0f524c5088e2ac551e": {
+        "add": 7,
+        "del": 3
+      },
+      "bd3f2f59c9b09f70aed3ebab6bb69b464ee2d6c": {
+        "add": 2,
+        "del": 3
+      },
+      "dae026a0f0511f83852053bae9d5a622e7f8048": {
+        "add": 35,
+        "del": 2
+      },
+      "dbc620f84ffb626c6e6738afe0578d617a2b3d3": {
+        "add": 6,
+        "del": 2
+      },
+      "93866341ec5396d07b5829be55110ff09dc81bc": {
+        "add": 33,
+        "del": 1
+      }
+    },
+    "days_between": 671,
+    "fixing_lines": {
+      "core/src/main/java/org/apache/struts2/views/util/UrlHelper.java": "179;181",
+      "core/src/main/java/org/apache/struts2/components/Anchor.java": "77"
+    },
+    "introducing_lines": {}
+  },
+  {
+    "cve": "CVE-2020-25022",
+    "cwe": "CWE-125",
+    "repository": "https://github.com/rweather/noise-java",
+    "fixing": [
+      "18e86b6f8bea7326934109aa9ffa705ebf4bde90"
+    ],
+    "introducing": "0d93e22b4180cd1fa889d543c548b8b0264f8cdf",
+    "intro_stats": {
+      "0d93e22b4180cd1fa889d543c548b8b0264f8cdf": {
+        "add": 275,
+        "del": 6
+      }
+    },
+    "fixing_stats": {
+      "18e86b6f8bea7326934109aa9ffa705ebf4bde90": {
+        "add": 35,
+        "del": 30
+      }
+    },
+    "days_between": 1521,
+    "fixing_lines": {
+      "src/main/java/com/southernstorm/noise/protocol/AESGCMFallbackCipherState.java": "188-192",
+      "src/main/java/com/southernstorm/noise/protocol/AESGCMOnCtrCipherState.java": "221-225",
+      "src/main/java/com/southernstorm/noise/protocol/ChaChaPolyCipherState.java": "217-221"
+    },
+    "introducing_lines": {
+      "NoiseJava/src/com/southernstorm/noise/protocol/AESGCMFallbackCipherState.java": "188"
+    }
+  },
+  {
+    "cve": "CVE-2015-1836",
+    "cwe": "CWE-284",
+    "repository": "https://gitbox.apache.org/repos/asf/hbase.git",
+    "fixing": [
+      "942e09b71eef5bd9fdb1c8711125c4bc1193bcdc"
+    ],
+    "introducing": "948d0cdec4fb35d70404b9b6e27743616400656d",
+    "intro_stats": {
+      "948d0cdec4fb35d70404b9b6e27743616400656d": {
+        "add": 8698,
+        "del": 0
+      }
+    },
+    "fixing_stats": {
+      "942e09b71eef5bd9fdb1c8711125c4bc1193bcdc": {
+        "add": 479,
+        "del": 15
+      }
+    },
+    "days_between": 2975,
+    "fixing_lines": {
+      "hbase-server/src/main/java/org/apache/hadoop/hbase/master/HMaster.java": "1002-1006"
+    },
+    "introducing_lines": {
+      "hbase-server/src/main/java/org/apache/hadoop/hbase/master/HMaster.java": "0"
+    }
+  },
+  {
+    "cve": "CVE-2013-7315",
+    "cwe": "CWE-264",
+    "repository": "https://github.com/spring-projects/spring-framework.git",
+    "fixing": [
+      "7576274874deeccb6da6b09a8d5bd62e8b5538b7"
+    ],
+    "introducing": "ed3823b045fd19cdb801609eb034c93dd4d75c3f",
+    "intro_stats": {
+      "ed3823b045fd19cdb801609eb034c93dd4d75c3f": {
+        "add": 1213,
+        "del": 99
+      }
+    },
+    "fixing_stats": {
+      "7576274874deeccb6da6b09a8d5bd62e8b5538b7": {
+        "add": 3,
+        "del": 1
+      }
+    },
+    "days_between": 349,
+    "fixing_lines": {
+      "spring-web/src/main/java/org/springframework/http/converter/xml/Jaxb2CollectionHttpMessageConverter.java": "229-231"
+    },
+    "introducing_lines": {
+      "spring-web/src/main/java/org/springframework/web/client/HttpMessageConverterExtractor.java": "225"
+    }
+  },
+  {
+    "cve": "CVE-2019-17563",
+    "cwe": "CWE-384",
+    "repository": "https://github.com/apache/tomcat",
+    "fixing": [
+      "e19a20",
+      "1ecba1",
+      "ab72a1"
+    ],
+    "introducing": "a84fabcbc6fee8a69253ad92a304b4718e96a7c9",
+    "intro_stats": {
+      "a84fabcbc6fee8a69253ad92a304b4718e96a7c9": {
+        "add": 264772,
+        "del": 0
+      }
+    },
+    "fixing_stats": {
+      "e19a20": {
+        "add": 15,
+        "del": 26
+      },
+      "1ecba1": {
+        "add": 15,
+        "del": 26
+      },
+      "ab72a1": {
+        "add": 15,
+        "del": 26
+      }
+    },
+    "days_between": 5002,
+    "fixing_lines": {
+      "java/org/apache/catalina/authenticator/AuthenticatorBase.java": "1138;1139;1142"
+    },
+    "introducing_lines": {
+      "java/org/apache/catalina/authenticator/AuthenticatorBase.java": "715"
+    }
+  },
+  {
+    "cve": "CVE-2017-9096",
+    "cwe": "CWE-611",
+    "repository": "https://github.com/itext/itext7",
+    "fixing": [
+      "930a1c81f8ea4952df540f041befbfa2d6757838"
+    ],
+    "introducing": "050687b386acfc1c27d3826d0a9936a3f042b09e",
+    "intro_stats": {
+      "050687b386acfc1c27d3826d0a9936a3f042b09e": {
+        "add": 1730,
+        "del": 61
+      }
+    },
+    "fixing_stats": {
+      "930a1c81f8ea4952df540f041befbfa2d6757838": {
+        "add": 34,
+        "del": 5
+      }
+    },
+    "days_between": 558,
+    "fixing_lines": {
+      "forms/src/main/java/com/itextpdf/forms/xfa/XfaForm.java": "491"
+    },
+    "introducing_lines": {
+      "forms/src/main/java/com/itextpdf/forms/xfa/XfaForm.java": "411"
+    }
+  },
+  {
+    "cve": "CVE-2019-11777",
+    "cwe": "CWE-755",
+    "repository": "https://github.com/eclipse/paho.mqtt.java",
+    "fixing": [
+      "a0bbf1e7da158ae191582f032343c6171e6a0b44"
+    ],
+    "introducing": "176f6fc0b83eefc4e196370e9d12775c99b711ea",
+    "intro_stats": {
+      "176f6fc0b83eefc4e196370e9d12775c99b711ea": {
+        "add": 38,
+        "del": 0
+      }
+    },
+    "fixing_stats": {
+      "a0bbf1e7da158ae191582f032343c6171e6a0b44": {
+        "add": 12,
+        "del": 2
+      }
+    },
+    "days_between": 363,
+    "fixing_lines": {
+      "org.eclipse.paho.client.mqttv3/src/main/java/org/eclipse/paho/client/mqttv3/internal/SSLNetworkModule.java": "141-145",
+      "org.eclipse.paho.mqttv5.client/src/main/java/org/eclipse/paho/mqttv5/client/internal/SSLNetworkModule.java": "139-143"
+    },
+    "introducing_lines": {
+      "org.eclipse.paho.client.mqttv3/src/main/java/org/eclipse/paho/client/mqttv3/internal/SSLNetworkModule.java": "109-112"
+    }
+  },
+  {
+    "cve": "CVE-2020-7226",
+    "cwe": "CWE-770",
+    "repository": "https://github.com/vt-middleware/cryptacular",
+    "fixing": [
+      "311baf12252abf21947afd07bf0a0291ec3ec796"
+    ],
+    "introducing": "42ec5f97f6af3f8c91822fcc0da1f19bc9b5b9b1",
+    "intro_stats": {
+      "42ec5f97f6af3f8c91822fcc0da1f19bc9b5b9b1": {
+        "add": 387,
+        "del": 0
+      }
+    },
+    "fixing_stats": {
+      "311baf12252abf21947afd07bf0a0291ec3ec796": {
+        "add": 708,
+        "del": 74
+      }
+    },
+    "days_between": 2262,
+    "fixing_lines": {
+      "src/main/java/org/cryptacular/CiphertextHeader.java": "82-84"
+    },
+    "introducing_lines": {
+      "src/main/java/org/cryptosis/CiphertextHeader.java": "28-34"
+    }
+  },
+  {
+    "cve": "CVE-2019-16771",
+    "cwe": "CWE-74",
+    "repository": "https://github.com/line/armeria",
+    "fixing": [
+      "b597f7a865a527a84ee3d6937075cfbb4470ed20"
+    ],
+    "introducing": "8a003bf4984c233b33e0e8b686c68deb2164c0b3",
+    "intro_stats": {
+      "8a003bf4984c233b33e0e8b686c68deb2164c0b3": {
+        "add": 213,
+        "del": 167
+      }
+    },
+    "fixing_stats": {
+      "b597f7a865a527a84ee3d6937075cfbb4470ed20": {
+        "add": 395,
+        "del": 84
+      }
+    },
+    "days_between": 331,
+    "fixing_lines": {
+      "core/src/main/java/com/linecorp/armeria/common/HttpHeaderNames.java": "616-620"
+    },
+    "introducing_lines": {
+      "core/src/main/java/com/linecorp/armeria/common/HttpHeaderNames.java": "458"
+    }
+  },
+  {
+    "cve": "CVE-2015-8581",
+    "cwe": "CWE-20",
+    "repository": "https://git-wip-us.apache.org/repos/asf/tomee.git",
+    "fixing": [
+      "58cdbbef9c77ab2b44870f9d606593b49cde76d9"
+    ],
+    "introducing": "86267a2346e3517482282a38e8bc7d167c039963",
+    "intro_stats": {
+      "86267a2346e3517482282a38e8bc7d167c039963": {
+        "add": 116,
+        "del": 155
+      }
+    },
+    "fixing_stats": {
+      "58cdbbef9c77ab2b44870f9d606593b49cde76d9": {
+        "add": 41,
+        "del": 3
+      }
+    },
+    "days_between": 1212,
+    "fixing_lines": {
+      "arquillian/arquillian-tomee-embedded/src/main/java/org/apache/openejb/arquillian/embedded/EmbeddedTomEEConfiguration.java": "175-183"
+    },
+    "introducing_lines": {
+      "arquillian/arquillian-tomee-common/src/main/java/org/apache/openejb/arquillian/common/Setup.java": "251"
+    }
+  },
+  {
+    "cve": "CVE-2019-11282",
+    "cwe": "CWE-74",
+    "repository": "https://github.com/cloudfoundry/uaa",
+    "fixing": [
+      "157febfdebfd63708233b492f3271ceb1bd1eafc"
+    ],
+    "introducing": "cd942abfb08004766db8b9f553774fc1c08b69d5",
+    "intro_stats": {
+      "cd942abfb08004766db8b9f553774fc1c08b69d5": {
+        "add": 49,
+        "del": 25
+      }
+    },
+    "fixing_stats": {
+      "157febfdebfd63708233b492f3271ceb1bd1eafc": {
+        "add": 59,
+        "del": 7
+      }
+    },
+    "days_between": 1168,
+    "fixing_lines": {
+      "server/src/main/java/org/cloudfoundry/identity/uaa/invitations/InvitationsEndpoint.java": "143"
+    },
+    "introducing_lines": {
+      "server/src/main/java/org/cloudfoundry/identity/uaa/invitations/InvitationsEndpoint.java": "83"
+    }
+  },
+  {
+    "cve": "CVE-2014-3579",
+    "cwe": "CWE-611",
+    "repository": "https://git-wip-us.apache.org/repos/asf/activemq-apollo.git",
+    "fixing": [
+      "e5647554e6801a522c508a8eb457979a9af8c398"
+    ],
+    "introducing": "588c6b5e9e6beb8e5b35584051f942473648c66d",
+    "intro_stats": {
+      "588c6b5e9e6beb8e5b35584051f942473648c66d": {
+        "add": 3035,
+        "del": 1267
+      }
+    },
+    "fixing_stats": {
+      "e5647554e6801a522c508a8eb457979a9af8c398": {
+        "add": 41,
+        "del": 1
+      }
+    },
+    "days_between": 1912,
+    "fixing_lines": {
+      "apollo-selector/src/main/java/org/apache/activemq/apollo/filter/XalanXPathEvaluator.java": "59-62;64-65"
+    },
+    "introducing_lines": {
+      "activemq-selector/src/main/java/org/apache/activemq/filter/XalanXPathEvaluator.java": "60"
+    }
+  },
+  {
+    "cve": "CVE-2018-17202",
+    "cwe": "CWE-835",
+    "repository": "https://github.com/apache/commons-imaging",
+    "fixing": [
+      "6a79d35d6654d895d0a4b73b3a9282ec9aaeeb06"
+    ],
+    "introducing": "c659a6007b258f3e2afc57cf2b4c4c5eb03fce74",
+    "intro_stats": {
+      "c659a6007b258f3e2afc57cf2b4c4c5eb03fce74": {
+        "add": 1725,
+        "del": 69
+      }
+    },
+    "fixing_stats": {
+      "6a79d35d6654d895d0a4b73b3a9282ec9aaeeb06": {
+        "add": 48,
+        "del": 1
+      }
+    },
+    "days_between": 2829,
+    "fixing_lines": {
+      "src/main/java/org/apache/commons/imaging/formats/jpeg/decoder/JpegDecoder.java": "403"
+    },
+    "introducing_lines": {
+      "src/main/java/org/apache/sanselan/formats/jpeg/decoder/JpegDecoder.java": "435"
+    }
+  },
+  {
+    "cve": "CVE-2020-13941",
+    "cwe": "CWE-20",
+    "repository": "https://github.com/apache/lucene-solr",
+    "fixing": [
+      "49a3f0a11d41f7124b893a08dc9e67594c32e2e",
+      "b52bf267c7aa528b282d09c637344650f903495"
+    ],
+    "introducing": "49a3f0a11d41f7124b893a08dc9e67594c32e2ee",
+    "intro_stats": {
+      "49a3f0a11d41f7124b893a08dc9e67594c32e2ee": {
+        "add": 102,
+        "del": 42
+      }
+    },
+    "fixing_stats": {
+      "49a3f0a11d41f7124b893a08dc9e67594c32e2e": {
+        "add": 102,
+        "del": 42
+      },
+      "b52bf267c7aa528b282d09c637344650f903495": {
+        "add": 96,
+        "del": 32
+      }
+    },
+    "days_between": 0,
+    "fixing_lines": {
+      "solr/core/src/java/org/apache/solr/core/SolrPaths.java": "120"
+    },
+    "introducing_lines": {
+      "solr/core/src/java/org/apache/solr/core/SolrPaths.java": "119"
+    }
+  },
+  {
+    "cve": "CVE-2014-0116",
+    "cwe": "CWE-264",
+    "repository": "https://github.com/apache/struts.git",
+    "fixing": [
+      "74e26830d2849a84729b33497f729e0f033dc147"
+    ],
+    "introducing": "bfbc4c04e007393986f374a02dfb7ded23bc9a05",
+    "intro_stats": {
+      "bfbc4c04e007393986f374a02dfb7ded23bc9a05": {
+        "add": 106,
+        "del": 101
+      }
+    },
+    "fixing_stats": {
+      "74e26830d2849a84729b33497f729e0f033dc147": {
+        "add": 7,
+        "del": 3
+      }
+    },
+    "days_between": 606,
+    "fixing_lines": {
+      "core/src/main/java/com/opensymphony/xwork2/security/DefaultExcludedPatternsChecker.java": "20"
+    },
+    "introducing_lines": {
+      "xwork-core/src/main/java/com/opensymphony/xwork2/DefaultExcludedPatternsChecker.java": "12-26"
+    }
+  },
+  {
+    "cve": "CVE-2019-11272",
+    "cwe": "CWE-522",
+    "repository": "https://github.com/spring-projects/spring-security",
+    "fixing": [
+      "b2d4fec3617c497c5a8eb9c7e5270e0c7db293ee"
+    ],
+    "introducing": "db12a50a32cd779e4f36f52dc2374692477bf94d",
+    "intro_stats": 0,
+    "fixing_stats": 0,
+    "days_between": 0,
+    "fixing_lines": {
+      "core/src/main/java/org/springframework/security/authentication/encoding/PlaintextPasswordEncoder.java": "54-56"
+    },
+    "introducing_lines": {}
+  },
+  {
+    "cve": "CVE-2016-6793",
+    "cwe": "CWE-502",
+    "repository": "https://github.com/apache/wicket.git",
+    "fixing": [
+      "134686ef7185d3f96fec953136ab4847cd36b68"
+    ],
+    "introducing": "db12a50a32cd779e4f36f52dc2374692477bf94d",
+    "intro_stats": {
+      "db12a50a32cd779e4f36f52dc2374692477bf94d": {
+        "add": 2689,
+        "del": 497
+      }
+    },
+    "fixing_stats": {
+      "134686ef7185d3f96fec953136ab4847cd36b68": {
+        "add": 0,
+        "del": 31
+      }
+    },
+    "days_between": 2012,
+    "fixing_lines": {
+      "wicket-util/src/main/java/org/apache/wicket/util/upload/DiskFileItem.java": "695;710"
+    },
+    "introducing_lines": {
+      "wicket-util/src/main/java/org/apache/wicket/util/upload/DiskFileItem.java": "716-731;744-764"
+    }
+  },
+  {
+    "cve": "CVE-2019-17633",
+    "cwe": "CWE-352",
+    "repository": "https://github.com/eclipse/che",
+    "fixing": [
+      "a8ce4435e3ffe9985116999f8dfae1b883548acf"
+    ],
+    "introducing": "a8ce4435e3ffe9985116999f8dfae1b883548acf",
+    "intro_stats": {
+      "a8ce4435e3ffe9985116999f8dfae1b883548acf": {
+        "add": 4,
+        "del": 149
+      }
+    },
+    "fixing_stats": {
+      "a8ce4435e3ffe9985116999f8dfae1b883548acf": {
+        "add": 4,
+        "del": 149
+      }
+    },
+    "days_between": 0,
+    "fixing_lines": {
+      "assembly/assembly-wsmaster-war/src/main/java/org/eclipse/che/api/deploy/WsMasterServletModule.java": "56"
+    },
+    "introducing_lines": {
+      "assembly/assembly-wsmaster-war/src/main/java/org/eclipse/che/api/deploy/WsMasterServletModule.java": "56"
+    }
+  },
+  {
+    "cve": "CVE-2018-17193",
+    "cwe": "CWE-79",
+    "repository": "https://github.com/apache/nifi",
+    "fixing": [
+      "e62aa0252dfcf34dff0c3a9c51265b1d0f9dfc9f"
+    ],
+    "introducing": "528b82634f528468970eaa655c0085b1c9592b71",
+    "intro_stats": {
+      "528b82634f528468970eaa655c0085b1c9592b71": {
+        "add": 1373,
+        "del": 30
+      }
+    },
+    "fixing_stats": {
+      "e62aa0252dfcf34dff0c3a9c51265b1d0f9dfc9f": {
+        "add": 192,
+        "del": 89
+      }
+    },
+    "days_between": 355,
+    "fixing_lines": {
+      "nifi-nar-bundles/nifi-framework-bundle/nifi-framework/nifi-web/nifi-web-error/src/main/java/org/apache/nifi/web/filter/CatchAllFilter.java": "42-46;55"
+    },
+    "introducing_lines": {}
+  },
+  {
+    "cve": "CVE-2015-5171",
+    "cwe": "CWE-613",
+    "repository": "https://github.com/cloudfoundry/uaa",
+    "fixing": [
+      "9730cd6a3bbb481ee4e400b51952b537589c469d"
+    ],
+    "introducing": "7c0eaea07e8b91c21f8c188545db1b4e653c6cd8",
+    "intro_stats": {
+      "7c0eaea07e8b91c21f8c188545db1b4e653c6cd8": {
+        "add": 56,
+        "del": 2
+      }
+    },
+    "fixing_stats": {
+      "9730cd6a3bbb481ee4e400b51952b537589c469d": {
+        "add": 425,
+        "del": 21
+      }
+    },
+    "days_between": 1,
+    "fixing_lines": {},
+    "introducing_lines": {
+      "login/src/main/java/org/cloudfoundry/identity/uaa/login/ChangePasswordController.java": "63-70"
+    }
+  },
+  {
+    "cve": "CVE-2017-1000498",
+    "cwe": "CWE-611",
+    "repository": "https://github.com/BigBadaboom/androidsvg",
+    "fixing": [
+      "44e4fbf1d0f6db295df34601972741d4cf706cbd"
+    ],
+    "introducing": "1c9dcb152130b0b8de59f9df4256fa349c695f25",
+    "intro_stats": {
+      "1c9dcb152130b0b8de59f9df4256fa349c695f25": {
+        "add": 535,
+        "del": 302
+      }
+    },
+    "fixing_stats": {
+      "44e4fbf1d0f6db295df34601972741d4cf706cbd": {
+        "add": 106,
+        "del": 77
+      }
+    },
+    "days_between": 0,
+    "fixing_lines": {
+      "androidsvg/src/main/java/com/caverock/androidsvg/SVGParser.java": "736-765"
+    },
+    "introducing_lines": {
+      "androidsvg/src/main/java/com/caverock/androidsvg/SVGParser.java": "725-749"
+    }
+  },
+  {
+    "cve": "CVE-2019-0194",
+    "cwe": "CWE-22",
+    "repository": "https://github.com/apache/camel",
+    "fixing": [
+      "2d399aa6062fccd6af496bd776314d1944f7090",
+      "53185f0b221b899aacb3c379647a866a8f408a8",
+      "5e1d70c6957703cdebbfe5d796462e5a89c8bc2",
+      "f337a98e86ef18611b14570e6780053fe3ddcc0",
+      "68f2de31b7752bd49b7898d7098b3bfe8e0d0bd",
+      "a8a2b8c0a37e348981a4cf41fd2b329b6079f40",
+      "05ff65d5cebf1fa5172c59dd16359ed583c099c",
+      "5b64969d37cf2906efd4623cfd473041ce5132f",
+      "15a1f10fb532bdcba184cda17be602a2358bd5e",
+      "e030f6665db037a2f73f30b9125fb770f29a7bd"
+    ],
+    "introducing": "f7db8aa81be1e0339a41de1ead9276174bcbe9a5",
+    "intro_stats": {
+      "f7db8aa81be1e0339a41de1ead9276174bcbe9a5": {
+        "add": 158,
+        "del": 15
+      }
+    },
+    "fixing_stats": {
+      "2d399aa6062fccd6af496bd776314d1944f7090": {
+        "add": 169,
+        "del": 3
+      },
+      "53185f0b221b899aacb3c379647a866a8f408a8": {
+        "add": 0,
+        "del": 1
+      },
+      "5e1d70c6957703cdebbfe5d796462e5a89c8bc2": {
+        "add": 169,
+        "del": 3
+      },
+      "f337a98e86ef18611b14570e6780053fe3ddcc0": {
+        "add": 0,
+        "del": 1
+      },
+      "68f2de31b7752bd49b7898d7098b3bfe8e0d0bd": {
+        "add": 0,
+        "del": 1
+      },
+      "a8a2b8c0a37e348981a4cf41fd2b329b6079f40": {
+        "add": 179,
+        "del": 8
+      },
+      "05ff65d5cebf1fa5172c59dd16359ed583c099c": {
+        "add": 0,
+        "del": 1
+      },
+      "5b64969d37cf2906efd4623cfd473041ce5132f": {
+        "add": 187,
+        "del": 12
+      },
+      "15a1f10fb532bdcba184cda17be602a2358bd5e": {
+        "add": 0,
+        "del": 1
+      },
+      "e030f6665db037a2f73f30b9125fb770f29a7bd": {
+        "add": 179,
+        "del": 8
+      }
+    },
+    "days_between": 3590,
+    "fixing_lines": {
+      "camel-core/src/main/java/org/apache/camel/component/file/GenericFileProducer.java": "382-390"
+    },
+    "introducing_lines": {
+      "camel-core/src/main/java/org/apache/camel/component/file/GenericFileProducer.java": "174-186"
+    }
+  },
+  {
+    "cve": "CVE-2017-9803",
+    "cwe": "CWE-287",
+    "repository": "https://github.com/apache/lucene-solr",
+    "fixing": [
+      "b091934f9e98568b848d0584a1145c8e514cbd21"
+    ],
+    "introducing": "7bf019a9c2779368133850f141174febede6ad96",
+    "intro_stats": {
+      "7bf019a9c2779368133850f141174febede6ad96": {
+        "add": 2255,
+        "del": 218
+      }
+    },
+    "fixing_stats": {
+      "b091934f9e98568b848d0584a1145c8e514cbd21": {
+        "add": 293,
+        "del": 10
+      }
+    },
+    "days_between": 376,
+    "fixing_lines": {
+      "solr/core/src/java/org/apache/solr/security/DelegationTokenKerberosFilter.java": "229-235"
+    },
+    "introducing_lines": {
+      "solr/core/src/java/org/apache/solr/security/DelegationTokenKerberosFilter.java": "147-157"
+    }
+  },
+  {
+    "cve": "CVE-2020-12719",
+    "cwe": "CWE-611",
+    "repository": "https://github.com/wso2/carbon-analytics-common",
+    "fixing": [
+      "a519819c9a3a9beed3721b043711bb1eb5c07897"
+    ],
+    "introducing": "7f9e44c0ee709f80badb39bb32c1de386a05f837",
+    "intro_stats": {
+      "7f9e44c0ee709f80badb39bb32c1de386a05f837": {
+        "add": 68623,
+        "del": 6
+      }
+    },
+    "fixing_stats": {
+      "a519819c9a3a9beed3721b043711bb1eb5c07897": {
+        "add": 46,
+        "del": 4
+      }
+    },
+    "days_between": 1689,
+    "fixing_lines": {
+      "components/event-publisher/org.wso2.carbon.event.publisher.core/src/main/java/org/wso2/carbon/event/publisher/core/internal/CarbonEventPublisherService.java": "570-574"
+    },
+    "introducing_lines": {
+      "components/event-publisher/org.wso2.carbon.event.publisher.core/src/main/java/org/wso2/carbon/event/publisher/core/internal/CarbonEventPublisherService.java": "523-553"
+    }
+  },
+  {
+    "cve": "CVE-2019-12422",
+    "cwe": "NVD-CWE-noinfo",
+    "repository": "https://github.com/apache/shiro",
+    "fixing": [
+      "a8018783373ff5e5210225069c9919e071597d5e"
+    ],
+    "introducing": "d2f053733eabf5c1587a9e5e9fb642d554fb5fed",
+    "intro_stats": {
+      "d2f053733eabf5c1587a9e5e9fb642d554fb5fed": {
+        "add": 2324,
+        "del": 474
+      }
+    },
+    "fixing_stats": {
+      "a8018783373ff5e5210225069c9919e071597d5e": {
+        "add": 179,
+        "del": 46
+      }
+    },
+    "days_between": 3490,
+    "fixing_lines": {
+      "crypto/cipher/src/main/java/org/apache/shiro/crypto/AesCipherService.java": "91-92"
+    },
+    "introducing_lines": {
+      "core/src/main/java/org/apache/shiro/crypto/AesCipherService.java": "87-89"
+    }
+  },
+  {
+    "cve": "CVE-2008-1728",
+    "cwe": "CWE-399",
+    "repository": "https://github.com/igniterealtime/Openfire",
+    "fixing": [
+      "c9cd1e521673ef0cccb8795b78d3cbaefb8a576a"
+    ],
+    "introducing": "74da47c604b38afe5c8754d30bf1fc39a58b1bdc",
+    "intro_stats": {
+      "74da47c604b38afe5c8754d30bf1fc39a58b1bdc": {
+        "add": 87,
+        "del": 25
+      }
+    },
+    "fixing_stats": {
+      "c9cd1e521673ef0cccb8795b78d3cbaefb8a576a": {
+        "add": 58,
+        "del": 3
+      }
+    },
+    "days_between": 424,
+    "fixing_lines": {
+      "src/java/org/jivesoftware/openfire/spi/ConnectionManagerImpl.java": "328"
+    },
+    "introducing_lines": {
+      "src/java/org/jivesoftware/wildfire/spi/ConnectionManagerImpl.java": "568-602"
+    }
+  },
+  {
+    "cve": "CVE-2018-8009",
+    "cwe": "CWE-22",
+    "repository": "https://github.com/apache/hadoop",
+    "fixing": [
+      "6d7d192e4799b51931e55217e02baec14d49607",
+      "cedc28d4ab2a27ba47e15ab2711218d96ec88d2",
+      "745f203e577bacb35b042206db94615141fa5e6",
+      "e3236a9680709de7a95ffbc11b20e1bdc95a860",
+      "11a425d11a329010d0ff8255ecbcd1eb51b642e",
+      "fc4c20fc3469674cb584a4fb98bac7e3c2277c9",
+      "12258c7cff8d32710fbd8b9088a930e3ce27432",
+      "1373e3d8ad60e4da721a292912cb69243bfdf47",
+      "6a4ae6f6eeed1392a4828a5721fa1499f65bdde",
+      "45a1c680c276c4501402f7bc4cebcf85a6fbc7f",
+      "eaa2b8035b584dfcf7c79a33484eb2dffd3fdb1",
+      "65e55097da2bb3f2fbdf9ba1946da25fe58bec9",
+      "bd98d4e77cf9f7b2f4b1afb4d5e5bad0f6b2fde"
+    ],
+    "introducing": "5128a9a453d64bfe1ed978cf9ffed27985eeef36",
+    "intro_stats": {
+      "5128a9a453d64bfe1ed978cf9ffed27985eeef36": {
+        "add": 67543,
+        "del": 0
+      }
+    },
+    "fixing_stats": {
+      "6d7d192e4799b51931e55217e02baec14d49607": {
+        "add": 41,
+        "del": 0
+      },
+      "cedc28d4ab2a27ba47e15ab2711218d96ec88d2": {
+        "add": 47,
+        "del": 9
+      },
+      "745f203e577bacb35b042206db94615141fa5e6": {
+        "add": 51,
+        "del": 7
+      },
+      "e3236a9680709de7a95ffbc11b20e1bdc95a860": {
+        "add": 52,
+        "del": 0
+      },
+      "11a425d11a329010d0ff8255ecbcd1eb51b642e": {
+        "add": 55,
+        "del": 1
+      },
+      "fc4c20fc3469674cb584a4fb98bac7e3c2277c9": {
+        "add": 51,
+        "del": 7
+      },
+      "12258c7cff8d32710fbd8b9088a930e3ce27432": {
+        "add": 47,
+        "del": 9
+      },
+      "1373e3d8ad60e4da721a292912cb69243bfdf47": {
+        "add": 47,
+        "del": 9
+      },
+      "6a4ae6f6eeed1392a4828a5721fa1499f65bdde": {
+        "add": 41,
+        "del": 0
+      },
+      "45a1c680c276c4501402f7bc4cebcf85a6fbc7f": {
+        "add": 49,
+        "del": 10
+      },
+      "eaa2b8035b584dfcf7c79a33484eb2dffd3fdb1": {
+        "add": 43,
+        "del": 1
+      },
+      "65e55097da2bb3f2fbdf9ba1946da25fe58bec9": {
+        "add": 41,
+        "del": 0
+      },
+      "bd98d4e77cf9f7b2f4b1afb4d5e5bad0f6b2fde": {
+        "add": 46,
+        "del": 8
+      }
+    },
+    "days_between": 3291,
+    "fixing_lines": {
+      "hadoop-common-project/hadoop-common/src/main/java/org/apache/hadoop/util/RunJar.java": "121-124",
+      "hadoop-common-project/hadoop-common/src/main/java/org/apache/hadoop/fs/FileUtil.java": "630-634"
+    },
+    "introducing_lines": {
+      "src/java/org/apache/hadoop/fs/FileUtil.java": "461-497"
+    }
+  },
+  {
+    "cve": "CVE-2014-0054",
+    "cwe": "CWE-352",
+    "repository": "https://github.com/spring-projects/spring-framework.git",
+    "fixing": [
+      "1c5cab2a4069ec3239c531d741aeb07a434f521b",
+      "edba32b3093703d5e9ed42b5b8ec23ecc1998398"
+    ],
+    "introducing": "03582973d74b30eba4b00be50189258b2d843bad",
+    "intro_stats": {
+      "03582973d74b30eba4b00be50189258b2d843bad": {
+        "add": 8496,
+        "del": 0
+      }
+    },
+    "fixing_stats": {
+      "1c5cab2a4069ec3239c531d741aeb07a434f521b": {
+        "add": 49,
+        "del": 3
+      },
+      "edba32b3093703d5e9ed42b5b8ec23ecc1998398": {
+        "add": 349,
+        "del": 26
+      }
+    },
+    "days_between": 1854,
+    "fixing_lines": {
+      "spring-oxm/src/main/java/org/springframework/oxm/support/AbstractMarshaller.java": "206-208"
+    },
+    "introducing_lines": {
+      "org.springframework.oxm/src/main/java/org/springframework/oxm/AbstractMarshaller.java": "174"
+    }
+  },
+  {
+    "cve": "CVE-2017-5645",
+    "cwe": "CWE-502",
+    "repository": "https://github.com/apache/logging-log4j2",
+    "fixing": [
+      "5dcc19215827db29c993d0305ee2b0d8dd05939d"
+    ],
+    "introducing": "ee87a184c7ccbfe03234782ebd6cc76c954a4a3c",
+    "intro_stats": {
+      "ee87a184c7ccbfe03234782ebd6cc76c954a4a3c": {
+        "add": 277,
+        "del": 112
+      }
+    },
+    "fixing_stats": {
+      "5dcc19215827db29c993d0305ee2b0d8dd05939d": {
+        "add": 140,
+        "del": 6
+      }
+    },
+    "days_between": 192,
+    "fixing_lines": {
+      "log4j-core/src/main/java/org/apache/logging/log4j/core/net/server/ObjectInputStreamLogEventBridge.java": "62"
+    },
+    "introducing_lines": {}
+  },
+  {
+    "cve": "CVE-2019-0232",
+    "cwe": "CWE-78",
+    "repository": "https://github.com/apache/tomcat",
+    "fixing": [
+      "5bc4e6",
+      "7f0221"
+    ],
+    "introducing": "a84fabcbc6fee8a69253ad92a304b4718e96a7c9",
+    "intro_stats": {
+      "a84fabcbc6fee8a69253ad92a304b4718e96a7c9": {
+        "add": 264772,
+        "del": 0
+      }
+    },
+    "fixing_stats": {
+      "5bc4e6": {
+        "add": 80,
+        "del": 2
+      },
+      "7f0221": {
+        "add": 80,
+        "del": 2
+      }
+    },
+    "days_between": 4761,
+    "fixing_lines": {
+      "java/org/apache/catalina/servlets/CGIServlet.java": "825-833"
+    },
+    "introducing_lines": {
+      "java/org/apache/catalina/servlets/CGIServlet.java": "811-820"
+    }
+  },
+  {
+    "cve": "CVE-2020-11976",
+    "cwe": "CWE-552",
+    "repository": "https://github.com/apache/wicket",
+    "fixing": [
+      "d43c68c0126306021a12afbfe7876a36612fbbc3"
+    ],
+    "introducing": "9f8f2f2f5f7df873061679c80edd151c94afdd38",
+    "intro_stats": {
+      "9f8f2f2f5f7df873061679c80edd151c94afdd38": {
+        "add": 1454,
+        "del": 116
+      }
+    },
+    "fixing_stats": {
+      "d43c68c0126306021a12afbfe7876a36612fbbc3": {
+        "add": 30,
+        "del": 47
+      }
+    },
+    "days_between": 1634,
+    "fixing_lines": {
+      "wicket-core/src/main/java/org/apache/wicket/MarkupContainer.java": "633-639;641-658"
+    },
+    "introducing_lines": {
+      "wicket-core/src/main/java/org/apache/wicket/MarkupContainer.java": "628-658"
+    }
+  },
+  {
+    "cve": "CVE-2017-3159",
+    "cwe": "CWE-502",
+    "repository": "https://github.com/apache/camel",
+    "fixing": [
+      "20e26226107f3133c87d0f5c845e02f824823f69",
+      "6b979d07fd4be6ac913368f2abeae690d3325d37",
+      "dcb5a74a3987d2264ad195c7844bbb6c81216610"
+    ],
+    "introducing": "53600cfaf16966ed01b4e888993e7700106ed97b",
+    "intro_stats": {
+      "53600cfaf16966ed01b4e888993e7700106ed97b": {
+        "add": 1382,
+        "del": 3
+      }
+    },
+    "fixing_stats": {
+      "20e26226107f3133c87d0f5c845e02f824823f69": {
+        "add": 1120,
+        "del": 125
+      },
+      "6b979d07fd4be6ac913368f2abeae690d3325d37": {
+        "add": 4,
+        "del": 2
+      },
+      "dcb5a74a3987d2264ad195c7844bbb6c81216610": {
+        "add": 26,
+        "del": 0
+      }
+    },
+    "days_between": 280,
+    "fixing_lines": {
+      "components/camel-snakeyaml/src/main/java/org/apache/camel/component/snakeyaml/SnakeYAMLDataFormat.java": "80-82"
+    },
+    "introducing_lines": {
+      "components/camel-snakeyaml/src/main/java/org/apache/camel/component/snakeyaml/SnakeYAMLDataFormat.java": "68-73"
+    }
+  },
+  {
+    "cve": "CVE-2016-2402",
+    "cwe": "CWE-295",
+    "repository": "https://github.com/square/okhttp",
+    "fixing": [
+      "3ccb46dd16b6ec98f70b0ee53eafe5ed6380891e",
+      "784fabac7d1586a5614bd4bc8854fd62850dbe26",
+      "5377f25d9eed755328216912ef5e922c93e14f3"
+    ],
+    "introducing": "62b42bf27589fd8128f6d1a202455c5731c890c2",
+    "intro_stats": {
+      "62b42bf27589fd8128f6d1a202455c5731c890c2": {
+        "add": 27,
+        "del": 24
+      }
+    },
+    "fixing_stats": {
+      "3ccb46dd16b6ec98f70b0ee53eafe5ed6380891e": {
+        "add": 4,
+        "del": 4
+      },
+      "784fabac7d1586a5614bd4bc8854fd62850dbe26": {
+        "add": 220,
+        "del": 92
+      },
+      "5377f25d9eed755328216912ef5e922c93e14f3": {
+        "add": 225,
+        "del": 87
+      }
+    },
+    "days_between": 0,
+    "fixing_lines": {
+      "okhttp/src/main/java/okhttp3/CertificatePinner.java": "154-157",
+      "okhttp/src/main/java/com/squareup/okhttp/internal/io/RealConnection.java": "206-208"
+    },
+    "introducing_lines": {
+      "okhttp/src/main/java/com/squareup/okhttp/internal/io/RealConnection.java": "204-208"
+    }
+  },
+  {
+    "cve": "CVE-2020-11996",
+    "cwe": "NVD-CWE-noinfo",
+    "repository": "https://github.com/apache/tomcat",
+    "fixing": [
+      "9434a44d3449d620b1be70206819f8275b4a750",
+      "9a0231683a77e2957cea0fdee88b193b30b0c97",
+      "c8acd2ab7371e39aeca7c306f3b5380f00afe55"
+    ],
+    "introducing": "3c97e9bb92d2572631c4633c04ec00607a10638d",
+    "intro_stats": {
+      "3c97e9bb92d2572631c4633c04ec00607a10638d": {
+        "add": 46,
+        "del": 5
+      }
+    },
+    "fixing_stats": {
+      "9434a44d3449d620b1be70206819f8275b4a750": {
+        "add": 36,
+        "del": 9
+      },
+      "9a0231683a77e2957cea0fdee88b193b30b0c97": {
+        "add": 36,
+        "del": 9
+      },
+      "c8acd2ab7371e39aeca7c306f3b5380f00afe55": {
+        "add": 36,
+        "del": 9
+      }
+    },
+    "days_between": 1807,
+    "fixing_lines": {
+      "java/org/apache/coyote/http2/Http2UpgradeHandler.java": "1476-1480"
+    },
+    "introducing_lines": {
+      "java/org/apache/coyote/http2/Http2UpgradeHandler.java": "808"
+    }
+  },
+  {
+    "cve": "CVE-2013-2248",
+    "cwe": "CWE-20",
+    "repository": "https://github.com/apache/struts",
+    "fixing": [
+      "3cfe34fefedcf0fdcfcb061c0aea34a715b7de6",
+      "630e1ba065a8215c4e9ac03bfb09be9d655c2b6e"
+    ],
+    "introducing": "c01d3a92db7f71f751a0522912d24bcf4a94a1b0",
+    "intro_stats": {
+      "c01d3a92db7f71f751a0522912d24bcf4a94a1b0": {
+        "add": 333578,
+        "del": 0
+      }
+    },
+    "fixing_stats": {
+      "3cfe34fefedcf0fdcfcb061c0aea34a715b7de6": {
+        "add": 48,
+        "del": 69
+      },
+      "630e1ba065a8215c4e9ac03bfb09be9d655c2b6e": {
+        "add": 48,
+        "del": 69
+      }
+    },
+    "days_between": 2669,
+    "fixing_lines": {
+      "core/src/main/java/org/apache/struts2/dispatcher/mapper/DefaultActionMapper.java": "207"
+    },
+    "introducing_lines": {
+      "core/src/main/java/org/apache/struts2/dispatcher/mapper/DefaultActionMapper.java": "152"
+    }
+  },
+  {
+    "cve": "CVE-2012-0391",
+    "cwe": "CWE-20",
+    "repository": "https://gitbox.apache.org/repos/asf/struts.git",
+    "fixing": [
+      "5f54b8d087f5125d96838aafa5f64c2190e6885b",
+      "b4265d369dc29d57a9f2846a85b26598e83f3892"
+    ],
+    "introducing": "0c543aef318341ca9bd482e15f1637497b8a4dfd",
+    "intro_stats": {
+      "0c543aef318341ca9bd482e15f1637497b8a4dfd": {
+        "add": 72963,
+        "del": 0
+      }
+    },
+    "fixing_stats": {
+      "5f54b8d087f5125d96838aafa5f64c2190e6885b": {
+        "add": 52,
+        "del": 14
+      },
+      "b4265d369dc29d57a9f2846a85b26598e83f3892": {
+        "add": 94,
+        "del": 85
+      }
+    },
+    "days_between": 538,
+    "fixing_lines": {
+      "core/src/main/java/org/apache/struts2/interceptor/StrutsConversionErrorInterceptor.java": "83"
+    },
+    "introducing_lines": {}
+  },
+  {
+    "cve": "CVE-2019-10184",
+    "cwe": "CWE-862",
+    "repository": "https://github.com/undertow-io/undertow",
+    "fixing": [
+      "5fa7ac68c0e4251c93056d9982db5e794e04ebfa"
+    ],
+    "introducing": "9e2c0e409899cc7eae9b01db85f4e355062e88c1",
+    "intro_stats": {
+      "9e2c0e409899cc7eae9b01db85f4e355062e88c1": {
+        "add": 7,
+        "del": 1
+      }
+    },
+    "fixing_stats": {
+      "5fa7ac68c0e4251c93056d9982db5e794e04ebfa": {
+        "add": 244,
+        "del": 26
+      }
+    },
+    "days_between": 1844,
+    "fixing_lines": {
+      "servlet/src/main/java/io/undertow/servlet/handlers/ServletInitialHandler.java": "147-149"
+    },
+    "introducing_lines": {
+      "servlet/src/main/java/io/undertow/servlet/handlers/ServletInitialHandler.java": "120-121"
+    }
+  },
+  {
+    "cve": "CVE-2019-19135",
+    "cwe": "CWE-330",
+    "repository": "https://github.com/eclipse/milo",
+    "fixing": [
+      "cac0e710bf2b8bed9c602fc597e9de1d8903abed"
+    ],
+    "introducing": "928dbc232f851bf06a40032a2fd297c5d7d8352c",
+    "intro_stats": {
+      "928dbc232f851bf06a40032a2fd297c5d7d8352c": {
+        "add": 126165,
+        "del": 0
+      }
+    },
+    "fixing_stats": {
+      "cac0e710bf2b8bed9c602fc597e9de1d8903abed": {
+        "add": 170,
+        "del": 32
+      }
+    },
+    "days_between": 1279,
+    "fixing_lines": {
+      "opc-ua-sdk/sdk-server/src/main/java/org/eclipse/milo/opcua/sdk/server/SessionManager.java": "190"
+    },
+    "introducing_lines": {
+      "opc-ua-sdk/sdk-server/src/main/java/org/eclipse/milo/opcua/sdk/server/SessionManager.java": "242"
+    }
+  },
+  {
+    "cve": "CVE-2019-0225",
+    "cwe": "CWE-22",
+    "repository": "https://github.com/apache/jspwiki",
+    "fixing": [
+      "88d89d6523802c044cfcb7930cba40d8eeb21da2"
+    ],
+    "introducing": "5da3fd1da735f32b138a850d990a6f51190cef5f",
+    "intro_stats": {
+      "5da3fd1da735f32b138a850d990a6f51190cef5f": {
+        "add": 176519,
+        "del": 0
+      }
+    },
+    "fixing_stats": {
+      "88d89d6523802c044cfcb7930cba40d8eeb21da2": {
+        "add": 63,
+        "del": 1
+      }
+    },
+    "days_between": 2125,
+    "fixing_lines": {
+      "jspwiki-main/src/main/java/org/apache/wiki/url/DefaultURLConstructor.java": "280"
+    },
+    "introducing_lines": {
+      "jspwiki-main/src/main/java/org/apache/wiki/url/DefaultURLConstructor.java": "304"
+    }
+  },
+  {
+    "cve": "CVE-2018-20157",
+    "cwe": "CWE-611",
+    "repository": "https://github.com/OpenRefine/OpenRefine",
+    "fixing": [
+      "6a0d7d56e4ffb420316ce7849fde881344fbf881"
+    ],
+    "introducing": "78edff6f7f410bb53c03e67f7f90a6d3521cee7f",
+    "intro_stats": {
+      "78edff6f7f410bb53c03e67f7f90a6d3521cee7f": {
+        "add": 9613,
+        "del": 4435
+      }
+    },
+    "fixing_stats": {
+      "6a0d7d56e4ffb420316ce7849fde881344fbf881": {
+        "add": 27,
+        "del": 0
+      }
+    },
+    "days_between": 2708,
+    "fixing_lines": {
+      "main/src/com/google/refine/importers/XmlImporter.java": "324"
+    },
+    "introducing_lines": {
+      "main/src/com/google/refine/importers/XmlImporter.java": "301"
+    }
+  },
+  {
+    "cve": "CVE-2015-5175",
+    "cwe": "CWE-20",
+    "repository": "https://github.com/apache/cxf-fediz.git",
+    "fixing": [
+      "90c898335786211d253c0503453e2f8b93e0d3fe",
+      "f65c961ea31e3c1851daba8e7e49fc37bbf77b19"
+    ],
+    "introducing": "ec46e587ac2cff468a1c10664dbf2af12d9672b5",
+    "intro_stats": {
+      "ec46e587ac2cff468a1c10664dbf2af12d9672b5": {
+        "add": 7691,
+        "del": 0
+      }
+    },
+    "fixing_stats": {
+      "90c898335786211d253c0503453e2f8b93e0d3fe": {
+        "add": 44,
+        "del": 603
+      },
+      "f65c961ea31e3c1851daba8e7e49fc37bbf77b19": {
+        "add": 50,
+        "del": 607
+      }
+    },
+    "days_between": 1288,
+    "fixing_lines": {
+      "plugins/core/src/main/java/org/apache/cxf/fediz/core/util/DOMUtils.java": "78-79"
+    },
+    "introducing_lines": {
+      "plugins/core/src/main/java/org/apache/cxf/fediz/core/util/DOMUtils.java": "76"
+    }
+  },
+  {
+    "cve": "CVE-2018-1322",
+    "cwe": "CWE-200",
+    "repository": "https://github.com/apache/syncope",
+    "fixing": [
+      "44a5ca0fbd357b8b5d81aa9313fb01cca30d8ad",
+      "735579b6f987b407049ac1f1da08e675d957c3e",
+      "7b168c142b09c3b03e39f1449211e7ddf026a14"
+    ],
+    "introducing": "07aa458582c654e0683091b9da36e54c1ce7a0c4",
+    "intro_stats": {
+      "07aa458582c654e0683091b9da36e54c1ce7a0c4": {
+        "add": 3433,
+        "del": 889
+      }
+    },
+    "fixing_stats": {
+      "44a5ca0fbd357b8b5d81aa9313fb01cca30d8ad": {
+        "add": 36,
+        "del": 3
+      },
+      "735579b6f987b407049ac1f1da08e675d957c3e": {
+        "add": 40,
+        "del": 4
+      },
+      "7b168c142b09c3b03e39f1449211e7ddf026a14": {
+        "add": 33,
+        "del": 3
+      }
+    },
+    "days_between": 1127,
+    "fixing_lines": {
+      "common/src/main/java/org/apache/syncope/common/search/SearchableFields.java": "36",
+      "core/src/main/java/org/apache/syncope/core/persistence/dao/impl/SubjectSearchDAOImpl.java": "66-69;292-304;309",
+      "common/lib/src/main/java/org/apache/syncope/common/lib/search/SearchableFields.java": "39"
+    },
+    "introducing_lines": {
+      "syncope620/common/lib/src/main/java/org/apache/syncope/common/lib/search/SearchableFields.java": "36"
+    }
+  },
+  {
+    "cve": "CVE-2018-11761",
+    "cwe": "CWE-611",
+    "repository": "https://github.com/apache/tika",
+    "fixing": [
+      "4e67928412ad56333d400f3728ecdb59d07d9d63"
+    ],
+    "introducing": "4b38d6228f4ba5ee912735dc692275499bbf45f6",
+    "intro_stats": {
+      "4b38d6228f4ba5ee912735dc692275499bbf45f6": {
+        "add": 495,
+        "del": 86
+      }
+    },
+    "fixing_stats": {
+      "4e67928412ad56333d400f3728ecdb59d07d9d63": {
+        "add": 58,
+        "del": 13
+      }
+    },
+    "days_between": 107,
+    "fixing_lines": {
+      "tika-core/src/main/java/org/apache/tika/utils/XMLReaderUtils.java": "77-95"
+    },
+    "introducing_lines": {
+      "tika-core/src/main/java/org/apache/tika/utils/XMLReaderUtils.java": "55-81"
+    }
+  },
+  {
+    "cve": "CVE-2020-1937",
+    "cwe": "CWE-89",
+    "repository": "https://github.com/apache/kylin",
+    "fixing": [
+      "1f9f44ceb818b46518176e81c6dea5a0d12750c",
+      "e373c64c96a54a7abfe4bccb82e8feb60db0474"
+    ],
+    "introducing": "8cfe32cf4f61d218439e57e134ccc3413aa98f89",
+    "intro_stats": {
+      "8cfe32cf4f61d218439e57e134ccc3413aa98f89": {
+        "add": 78,
+        "del": 81
+      }
+    },
+    "fixing_stats": {
+      "1f9f44ceb818b46518176e81c6dea5a0d12750c": {
+        "add": 27,
+        "del": 9
+      },
+      "e373c64c96a54a7abfe4bccb82e8feb60db0474": {
+        "add": 51,
+        "del": 30
+      }
+    },
+    "days_between": 796,
+    "fixing_lines": {
+      "server-base/src/main/java/org/apache/kylin/rest/service/CubeService.java": "985-988"
+    },
+    "introducing_lines": {
+      "server-base/src/main/java/org/apache/kylin/rest/service/CubeService.java": "930-933"
+    }
+  },
+  {
+    "cve": "CVE-2020-5397",
+    "cwe": "CWE-352",
+    "repository": "https://github.com/spring-projects/spring-framework",
+    "fixing": [
+      "bc7d01048579430b4b2df668178809b63d3f1929"
+    ],
+    "introducing": "d27b5d0ab6e8b91a77e272ad57ae83c7d81d810b",
+    "intro_stats": {
+      "d27b5d0ab6e8b91a77e272ad57ae83c7d81d810b": {
+        "add": 278,
+        "del": 123
+      }
+    },
+    "fixing_stats": {
+      "bc7d01048579430b4b2df668178809b63d3f1929": {
+        "add": 74,
+        "del": 26
+      }
+    },
+    "days_between": 286,
+    "fixing_lines": {
+      "spring-web/src/main/java/org/springframework/web/cors/CorsUtils.java": "74",
+      "spring-web/src/main/java/org/springframework/web/cors/reactive/CorsUtils.java": "52-55"
+    },
+    "introducing_lines": {
+      "spring-web/src/main/java/org/springframework/web/cors/reactive/CorsUtils.java": "53"
+    }
+  },
+  {
+    "cve": "CVE-2015-1776",
+    "cwe": "CWE-200",
+    "repository": "https://github.com/apache/hadoop.git",
+    "fixing": [
+      "6b710a42e00acca405e085724c89cda016cf7442"
+    ],
+    "introducing": "9ca394d54dd24e67867c845a58150f6b51761512",
+    "intro_stats": {
+      "9ca394d54dd24e67867c845a58150f6b51761512": {
+        "add": 575,
+        "del": 25
+      }
+    },
+    "fixing_stats": {
+      "6b710a42e00acca405e085724c89cda016cf7442": {
+        "add": 156,
+        "del": 41
+      }
+    },
+    "days_between": 513,
+    "fixing_lines": {},
+    "introducing_lines": {}
+  },
+  {
+    "cve": "CVE-2018-11771",
+    "cwe": "CWE-835",
+    "repository": "https://github.com/apache/commons-compress",
+    "fixing": [
+      "a41ce6892cb0590b2e658704434ac0dbcb6834c8"
+    ],
+    "introducing": "29f975ea99d9b9310c6fc33ac4f844fb10f4d98a",
+    "intro_stats": {
+      "29f975ea99d9b9310c6fc33ac4f844fb10f4d98a": {
+        "add": 37,
+        "del": 82
+      }
+    },
+    "fixing_stats": {
+      "a41ce6892cb0590b2e658704434ac0dbcb6834c8": {
+        "add": 83,
+        "del": 1
+      }
+    },
+    "days_between": 3422,
+    "fixing_lines": {
+      "src/main/java/org/apache/commons/compress/archivers/zip/ZipArchiveInputStream.java": "528-529"
+    },
+    "introducing_lines": {
+      "src/main/java/org/apache/commons/compress/archivers/zip/ZipArchiveInputStream.java": "429-430"
+    }
+  },
+  {
+    "cve": "CVE-2014-0229",
+    "cwe": "CWE-264",
+    "repository": "https://github.com/apache/hadoop",
+    "fixing": [
+      "957c56dbe5b1490490c09ddfbca9a4204c7c9d00"
+    ],
+    "introducing": "a196766ea07775f18ded69bd9e8d239f8cfd3ccc",
+    "intro_stats": {
+      "a196766ea07775f18ded69bd9e8d239f8cfd3ccc": {
+        "add": 644212,
+        "del": 0
+      }
+    },
+    "fixing_stats": {
+      "957c56dbe5b1490490c09ddfbca9a4204c7c9d00": {
+        "add": 43,
+        "del": 0
+      }
+    },
+    "days_between": 1083,
+    "fixing_lines": {
+      "hadoop-hdfs-project/hadoop-hdfs/src/main/java/org/apache/hadoop/hdfs/server/datanode/DataNode.java": "426-430"
+    },
+    "introducing_lines": {}
+  },
+  {
+    "cve": "CVE-2010-1244",
+    "cwe": "CWE-352",
+    "repository": "https://github.com/apache/activemq",
+    "fixing": [
+      "1f464b9412e1b1c08d40c8ffac40edd52731da48"
+    ],
+    "introducing": "508128e3e64aeb0c09339172aabb8dbd3434980c",
+    "intro_stats": {
+      "508128e3e64aeb0c09339172aabb8dbd3434980c": {
+        "add": 83,
+        "del": 42
+      }
+    },
+    "fixing_stats": {
+      "1f464b9412e1b1c08d40c8ffac40edd52731da48": {
+        "add": 82,
+        "del": 34
+      }
+    },
+    "days_between": 685,
+    "fixing_lines": {
+      "activemq-web-console/src/main/java/org/apache/activemq/web/handler/BindingBeanNameUrlHandlerMapping.java": "50-62"
+    },
+    "introducing_lines": {
+      "activemq-web-console/src/main/java/org/apache/activemq/web/handler/BindingBeanNameUrlHandlerMapping.java": "45-57"
+    }
+  },
+  {
+    "cve": "CVE-2019-10071",
+    "cwe": "CWE-203",
+    "repository": "https://gitbox.apache.org/repos/asf/tapestry-5",
+    "fixing": [
+      "cdcf49c0a2b36ffc7a004d54405bb4357870c4b2"
+    ],
+    "introducing": "95846b173d83c2eb42db75dae3e7d5e13a633946",
+    "intro_stats": {
+      "95846b173d83c2eb42db75dae3e7d5e13a633946": {
+        "add": 378,
+        "del": 21
+      }
+    },
+    "fixing_stats": {
+      "cdcf49c0a2b36ffc7a004d54405bb4357870c4b2": {
+        "add": 3,
+        "del": 2
+      }
+    },
+    "days_between": 2388,
+    "fixing_lines": {
+      "tapestry-core/src/main/java/org/apache/tapestry5/internal/services/ClientDataEncoderImpl.java": "130"
+    },
+    "introducing_lines": {
+      "tapestry-core/src/main/java/org/apache/tapestry5/internal/services/ClientDataEncoderImpl.java": "117"
+    }
+  },
+  {
+    "cve": "CVE-2016-4465",
+    "cwe": "CWE-20",
+    "repository": "https://gitbox.apache.org/repos/asf/struts.git",
+    "fixing": [
+      "eccc31ebce5430f9e91b9684c63eaaf885e603f9",
+      "a0fdca138feec2c2e94eb75ca1f8b76678b4d152"
+    ],
+    "introducing": "31be88afa28fb9b1e9854d0d7673ab9b979cf9be",
+    "intro_stats": {
+      "31be88afa28fb9b1e9854d0d7673ab9b979cf9be": {
+        "add": 96,
+        "del": 0
+      }
+    },
+    "fixing_stats": {
+      "eccc31ebce5430f9e91b9684c63eaaf885e603f9": {
+        "add": 2,
+        "del": 1
+      },
+      "a0fdca138feec2c2e94eb75ca1f8b76678b4d152": {
+        "add": 2,
+        "del": 1
+      }
+    },
+    "days_between": 827,
+    "fixing_lines": {
+      "xwork-core/src/main/java/com/opensymphony/xwork2/validator/validators/URLValidator.java": "85"
+    },
+    "introducing_lines": {
+      "xwork-core/src/main/java/com/opensymphony/xwork2/validator/validators/URLValidator.java": "100-114"
+    }
+  },
+  {
+    "cve": "CVE-2016-1000341",
+    "cwe": "CWE-361",
+    "repository": "https://github.com/bcgit/bc-java",
+    "fixing": [
+      "acaac81f96fec91ab45bd0412beaf9c3acd8defa"
+    ],
+    "introducing": "416d12366597ba69358b76e0d17bbb9b3bdfcd5d",
+    "intro_stats": {
+      "416d12366597ba69358b76e0d17bbb9b3bdfcd5d": {
+        "add": 20,
+        "del": 22
+      }
+    },
+    "fixing_stats": {
+      "acaac81f96fec91ab45bd0412beaf9c3acd8defa": {
+        "add": 37,
+        "del": 8
+      }
+    },
+    "days_between": 786,
+    "fixing_lines": {
+      "core/src/main/java/org/bouncycastle/crypto/signers/DSASigner.java": "98-99"
+    },
+    "introducing_lines": {
+      "core/src/main/java/org/bouncycastle/crypto/signers/DSASigner.java": "98"
+    }
+  },
+  {
+    "cve": "CVE-2019-12415",
+    "cwe": "CWE-611",
+    "repository": "https://github.com/apache/poi",
+    "fixing": [
+      "2b8200f7d701ea6ff9638f629f0bd81d2e48410c"
+    ],
+    "introducing": "8f0093e4648f0e9598d26847984eee060535f951",
+    "intro_stats": {
+      "8f0093e4648f0e9598d26847984eee060535f951": {
+        "add": 47,
+        "del": 10
+      }
+    },
+    "fixing_stats": {
+      "2b8200f7d701ea6ff9638f629f0bd81d2e48410c": {
+        "add": 242,
+        "del": 54
+      }
+    },
+    "days_between": 907,
+    "fixing_lines": {
+      "src/ooxml/java/org/apache/poi/xssf/streaming/SXSSFCell.java": "286-290"
+    },
+    "introducing_lines": {
+      "src/ooxml/java/org/apache/poi/xssf/streaming/SXSSFCell.java": "236"
+    }
+  },
+  {
+    "cve": "CVE-2019-10754",
+    "cwe": "CWE-338",
+    "repository": "https://github.com/apereo/cas",
+    "fixing": [
+      "40bf278e66786544411c471de5123e7a71826b9f"
+    ],
+    "introducing": "5cba088905f1ee6f4a2f6616dd064330405aa82d",
+    "intro_stats": {
+      "5cba088905f1ee6f4a2f6616dd064330405aa82d": {
+        "add": 125,
+        "del": 8
+      }
+    },
+    "fixing_stats": {
+      "40bf278e66786544411c471de5123e7a71826b9f": {
+        "add": 220,
+        "del": 35
+      }
+    },
+    "days_between": 134,
+    "fixing_lines": {
+      "core/cas-server-core-util-api/src/main/java/org/apereo/cas/util/RandomUtils.java": "50-74"
+    },
+    "introducing_lines": {}
+  },
+  {
+    "cve": "CVE-2019-3797",
+    "cwe": "CWE-200",
+    "repository": "https://github.com/spring-projects/spring-data-jpa",
+    "fixing": [
+      "9b16fef6e9a1c8f4352cb979df8ef4a9336d655",
+      "ee39e8863bb43b63e34fe9ac6ec9b864cd8afca",
+      "16661f7e7e28f8ea8585a0402bd91eb6721ce55",
+      "417202db8e1714bdca1bd57879634866934c6f5",
+      "271a2814157c5de78345effdbe2a21c740880cd",
+      "89b18d573394c84012c58c892e9a3844fb8c7b4",
+      "8a5743c74b7ab1daf7cb428fee0d9b3f03fb914",
+      "c47a5d09a1123ca8e77f832f8335e227b820b3f",
+      "4d4e6d418fe3bca14c7cff1c7161e3794026f96",
+      "899b8b0db3d40603488ad50f116ab9e68021ba3",
+      "b6060be66b6cbf447c0c62e5b80caa565e10f38",
+      "ee03f9b4a5facaee1b9d25313862e1d043f5a5d"
+    ],
+    "introducing": "c47a5d09a1123ca8e77f832f8335e227b820b3fc",
+    "intro_stats": {
+      "c47a5d09a1123ca8e77f832f8335e227b820b3fc": {
+        "add": 170,
+        "del": 31
+      }
+    },
+    "fixing_stats": {
+      "9b16fef6e9a1c8f4352cb979df8ef4a9336d655": {
+        "add": 233,
+        "del": 48
+      },
+      "ee39e8863bb43b63e34fe9ac6ec9b864cd8afca": {
+        "add": 21,
+        "del": 8
+      },
+      "16661f7e7e28f8ea8585a0402bd91eb6721ce55": {
+        "add": 166,
+        "del": 35
+      },
+      "417202db8e1714bdca1bd57879634866934c6f5": {
+        "add": 38,
+        "del": 20
+      },
+      "271a2814157c5de78345effdbe2a21c740880cd": {
+        "add": 36,
+        "del": 17
+      },
+      "89b18d573394c84012c58c892e9a3844fb8c7b4": {
+        "add": 29,
+        "del": 19
+      },
+      "8a5743c74b7ab1daf7cb428fee0d9b3f03fb914": {
+        "add": 266,
+        "del": 68
+      },
+      "c47a5d09a1123ca8e77f832f8335e227b820b3f": {
+        "add": 170,
+        "del": 31
+      },
+      "4d4e6d418fe3bca14c7cff1c7161e3794026f96": {
+        "add": 244,
+        "del": 53
+      },
+      "899b8b0db3d40603488ad50f116ab9e68021ba3": {
+        "add": 170,
+        "del": 34
+      },
+      "b6060be66b6cbf447c0c62e5b80caa565e10f38": {
+        "add": 21,
+        "del": 8
+      },
+      "ee03f9b4a5facaee1b9d25313862e1d043f5a5d": {
+        "add": 60,
+        "del": 39
+      }
+    },
+    "days_between": -1,
+    "fixing_lines": {
+      "src/main/java/org/springframework/data/jpa/repository/query/JpaQueryCreator.java": "295"
+    },
+    "introducing_lines": {}
+  },
+  {
+    "cve": "CVE-2018-11784",
+    "cwe": "CWE-601",
+    "repository": "https://github.com/apache/tomcat",
+    "fixing": [
+      "efb860b3ff8ebcf606199b8d0d432f76898040da"
+    ],
+    "introducing": "816552abf6735fa37dfd37c8a7bfbdbd045477e0",
+    "intro_stats": {
+      "816552abf6735fa37dfd37c8a7bfbdbd045477e0": {
+        "add": 47,
+        "del": 19
+      }
+    },
+    "fixing_stats": {
+      "efb860b3ff8ebcf606199b8d0d432f76898040da": {
+        "add": 8,
+        "del": 0
+      }
+    },
+    "days_between": 1020,
+    "fixing_lines": {
+      "java/org/apache/catalina/servlets/DefaultServlet.java": "1316-1319"
+    },
+    "introducing_lines": {
+      "java/org/apache/catalina/servlets/DefaultServlet.java": "1034-1043"
+    }
+  },
+  {
+    "cve": "CVE-2020-11980",
+    "cwe": "CWE-918",
+    "repository": "https://github.com/apache/karaf",
+    "fixing": [
+      "3e4c4bed2d08e81ca5961ab5fcadab23470db1c",
+      "2ccfba48bdfac6c2cd09c8f058641da0011e4c7"
+    ],
+    "introducing": "cecc58e7495aad84069401d9703badb99937becf",
+    "intro_stats": {
+      "cecc58e7495aad84069401d9703badb99937becf": {
+        "add": 290,
+        "del": 66
+      }
+    },
+    "fixing_stats": {
+      "3e4c4bed2d08e81ca5961ab5fcadab23470db1c": {
+        "add": 13,
+        "del": 4
+      },
+      "2ccfba48bdfac6c2cd09c8f058641da0011e4c7": {
+        "add": 13,
+        "del": 4
+      }
+    },
+    "days_between": 1563,
+    "fixing_lines": {
+      "management/server/src/main/java/org/apache/karaf/management/KarafMBeanServerGuard.java": "352-361"
+    },
+    "introducing_lines": {
+      "management/server/src/main/java/org/apache/karaf/management/KarafMBeanServerGuard.java": "324-328"
+    }
+  },
+  {
+    "cve": "CVE-2020-13935",
+    "cwe": "CWE-835",
+    "repository": "https://github.com/apache/tomcat",
+    "fixing": [
+      "12d715676038efbf9c728af10163f8277fc019d",
+      "1c1c77b0efb667cea80b532440b44cea1dc427c",
+      "40fa74c74822711ab878079d0a69f7357926723"
+    ],
+    "introducing": "fc6f2ead8463d06ae73954508927e4f2224c8e77",
+    "intro_stats": {
+      "fc6f2ead8463d06ae73954508927e4f2224c8e77": {
+        "add": 45,
+        "del": 40
+      }
+    },
+    "fixing_stats": {
+      "12d715676038efbf9c728af10163f8277fc019d": {
+        "add": 16,
+        "del": 0
+      },
+      "1c1c77b0efb667cea80b532440b44cea1dc427c": {
+        "add": 16,
+        "del": 0
+      },
+      "40fa74c74822711ab878079d0a69f7357926723": {
+        "add": 16,
+        "del": 0
+      }
+    },
+    "days_between": 1373,
+    "fixing_lines": {
+      "java/org/apache/tomcat/websocket/WsFrameBase.java": "267-270"
+    },
+    "introducing_lines": {
+      "java/org/apache/tomcat/websocket/WsFrameBase.java": "262-264"
+    }
+  },
+  {
+    "cve": "CVE-2020-1963",
+    "cwe": "CWE-862",
+    "repository": "https://github.com/apache/ignite",
+    "fixing": [
+      "02b0439639a9dab264cdb3ed4081c231e0079c13"
+    ],
+    "introducing": "1e0a7c21ea77ae2684a2d0b5d809b4241567bd2b",
+    "intro_stats": {
+      "1e0a7c21ea77ae2684a2d0b5d809b4241567bd2b": {
+        "add": 592,
+        "del": 183
+      }
+    },
+    "fixing_stats": {
+      "02b0439639a9dab264cdb3ed4081c231e0079c13": {
+        "add": 666,
+        "del": 69
+      }
+    },
+    "days_between": 450,
+    "fixing_lines": {},
+    "introducing_lines": {}
+  },
+  {
+    "cve": "CVE-2018-11039",
+    "cwe": "NVD-CWE-noinfo",
+    "repository": "https://github.com/spring-projects/spring-framework",
+    "fixing": [
+      "dac97f1b7dac3e70ff603fb6fc9f205b95dd6b01",
+      "f2694a8ed93f1f63f87ce45d0bb638478b426acd"
+    ],
+    "introducing": "a99fe3eda4af496cd6e2b90b7f9988a76fe6695e",
+    "intro_stats": {
+      "a99fe3eda4af496cd6e2b90b7f9988a76fe6695e": {
+        "add": 87,
+        "del": 115
+      }
+    },
+    "fixing_stats": {
+      "dac97f1b7dac3e70ff603fb6fc9f205b95dd6b01": {
+        "add": 21,
+        "del": 3
+      },
+      "f2694a8ed93f1f63f87ce45d0bb638478b426acd": {
+        "add": 38,
+        "del": 19
+      }
+    },
+    "days_between": 451,
+    "fixing_lines": {
+      "spring-web/src/main/java/org/springframework/web/filter/reactive/HiddenHttpMethodFilter.java": "97-102"
+    },
+    "introducing_lines": {
+      "spring-web/src/main/java/org/springframework/web/filter/reactive/HiddenHttpMethodFilter.java": "90"
+    }
+  },
+  {
+    "cve": "CVE-2019-10094",
+    "cwe": "CWE-770",
+    "repository": "https://github.com/apache/tika",
+    "fixing": [
+      "426be73b9e7500fa3d441231fa4e473de34743f6"
+    ],
+    "introducing": "5f05b511d7d1184f6f25a2b644b615c4f21b8e68",
+    "intro_stats": {
+      "5f05b511d7d1184f6f25a2b644b615c4f21b8e68": {
+        "add": 829,
+        "del": 340
+      }
+    },
+    "fixing_stats": {
+      "426be73b9e7500fa3d441231fa4e473de34743f6": {
+        "add": 57,
+        "del": 2
+      }
+    },
+    "days_between": 403,
+    "fixing_lines": {
+      "tika-core/src/main/java/org/apache/tika/parser/RecursiveParserWrapper.java": "228-233"
+    },
+    "introducing_lines": {
+      "tika-core/src/main/java/org/apache/tika/parser/RecursiveParserWrapper.java": "220"
+    }
+  },
+  {
+    "cve": "CVE-2015-5172",
+    "cwe": "CWE-640",
+    "repository": "https://github.com/cloudfoundry/uaa",
+    "fixing": [
+      "cd31cc397fe17389d95b83d6a9caa46eebc54faf"
+    ],
+    "introducing": "327fbdc2c2f8595b1fbc09f5925c907b42f2d45a",
+    "intro_stats": {
+      "327fbdc2c2f8595b1fbc09f5925c907b42f2d45a": {
+        "add": 33993,
+        "del": 79
+      }
+    },
+    "fixing_stats": {
+      "cd31cc397fe17389d95b83d6a9caa46eebc54faf": {
+        "add": 155,
+        "del": 69
+      }
+    },
+    "days_between": 255,
+    "fixing_lines": {
+      "login/src/main/java/org/cloudfoundry/identity/uaa/login/ResetPasswordController.java": "151-164"
+    },
+    "introducing_lines": {
+      "login/src/main/java/org/cloudfoundry/identity/uaa/login/ResetPasswordController.java": "68"
+    }
+  },
+  {
+    "cve": "CVE-2017-5637",
+    "cwe": "CWE-400",
+    "repository": "https://github.com/apache/zookeeper",
+    "fixing": [
+      "75411ab34a3d53c43c2d508b12314a9788aa417",
+      "6d9fc04c052adbc79bbbb1c63f3f00c816fb8e5"
+    ],
+    "introducing": "b0fbdba0c2a0334704f4c8969f2d0deb5d73cf95",
+    "intro_stats": {
+      "b0fbdba0c2a0334704f4c8969f2d0deb5d73cf95": {
+        "add": 585,
+        "del": 579
+      }
+    },
+    "fixing_stats": {
+      "75411ab34a3d53c43c2d508b12314a9788aa417": {
+        "add": 3755,
+        "del": 396
+      },
+      "6d9fc04c052adbc79bbbb1c63f3f00c816fb8e5": {
+        "add": 466,
+        "del": 15
+      }
+    },
+    "days_between": 100,
+    "fixing_lines": {
+      "src/java/main/org/apache/zookeeper/server/NIOServerCnxn.java": "510-520"
+    },
+    "introducing_lines": {}
+  },
+  {
+    "cve": "CVE-2018-8030",
+    "cwe": "CWE-20",
+    "repository": "https://github.com/apache/qpid-broker-j",
+    "fixing": [
+      "025b48f3193e2b10b1c41d2bc3bcfc9cfc238a27"
+    ],
+    "introducing": "e91f279199ac5419d71ba7b15070c585f4962eb3",
+    "intro_stats": {
+      "e91f279199ac5419d71ba7b15070c585f4962eb3": {
+        "add": 10406,
+        "del": 56793
+      }
+    },
+    "fixing_stats": {
+      "025b48f3193e2b10b1c41d2bc3bcfc9cfc238a27": {
+        "add": 87,
+        "del": 1
+      }
+    },
+    "days_between": 1327,
+    "fixing_lines": {
+      "broker-plugins/amqp-0-8-protocol/src/main/java/org/apache/qpid/server/protocol/v0_8/AMQChannel.java": "2220-2223"
+    },
+    "introducing_lines": {
+      "broker-plugins/amqp-0-8-protocol/src/main/java/org/apache/qpid/server/protocol/v0_8/AMQChannel.java": "2345"
+    }
+  },
+  {
+    "cve": "CVE-2017-17485",
+    "cwe": "CWE-502",
+    "repository": "https://github.com/FasterXML/jackson-databind",
+    "fixing": [
+      "2235894210c75f624a3d0cd60bfb0434a20a18bf"
+    ],
+    "introducing": "6ce32ffd18facac6abdbbf559c817b47fcb622c1",
+    "intro_stats": {
+      "6ce32ffd18facac6abdbbf559c817b47fcb622c1": {
+        "add": 65,
+        "del": 0
+      }
+    },
+    "fixing_stats": {
+      "2235894210c75f624a3d0cd60bfb0434a20a18bf": {
+        "add": 103,
+        "del": 49
+      }
+    },
+    "days_between": 249,
+    "fixing_lines": {
+      "src/main/java/com/fasterxml/jackson/databind/deser/BeanDeserializerFactory.java": "849",
+      "src/main/java/com/fasterxml/jackson/databind/jsontype/impl/SubTypeValidator.java": "1-98"
+    },
+    "introducing_lines": {
+      "src/main/java/com/fasterxml/jackson/databind/deser/BeanDeserializerFactory.java": "843-859"
+    }
+  },
+  {
+    "cve": "CVE-2018-8037",
+    "cwe": "CWE-362",
+    "repository": "https://github.com/apache/tomcat",
+    "fixing": [
+      "ed4b9d791f9470e4c3de691dd0153a9ce431701b"
+    ],
+    "introducing": "8460d7712dcbb72e3d4f2f8ebb9a26fc4e9ddcf9",
+    "intro_stats": {
+      "8460d7712dcbb72e3d4f2f8ebb9a26fc4e9ddcf9": {
+        "add": 37,
+        "del": 2
+      }
+    },
+    "fixing_stats": {
+      "ed4b9d791f9470e4c3de691dd0153a9ce431701b": {
+        "add": 6,
+        "del": 3
+      }
+    },
+    "days_between": 741,
+    "fixing_lines": {
+      "java/org/apache/tomcat/util/net/Nio2Endpoint.java": "845",
+      "java/org/apache/tomcat/util/net/NioEndpoint.java": "1144"
+    },
+    "introducing_lines": {
+      "java/org/apache/tomcat/util/net/Nio2Endpoint.java": "901"
+    }
+  },
+  {
+    "cve": "CVE-2018-17192",
+    "cwe": "CWE-1021",
+    "repository": "https://github.com/apache/nifi",
+    "fixing": [
+      "dbf259508c2b8e176d8cb837177aaadbf44f0670"
+    ],
+    "introducing": "ac8e57259f8e4d8183d938f46a28f3c73b595940",
+    "intro_stats": {
+      "ac8e57259f8e4d8183d938f46a28f3c73b595940": {
+        "add": 33,
+        "del": 0
+      }
+    },
+    "fixing_stats": {
+      "dbf259508c2b8e176d8cb837177aaadbf44f0670": {
+        "add": 84,
+        "del": 40
+      }
+    },
+    "days_between": 393,
+    "fixing_lines": {
+      "nifi-nar-bundles/nifi-framework-bundle/nifi-framework/nifi-web/nifi-jetty/src/main/java/org/apache/nifi/web/server/JettyServer.java": "1037"
+    },
+    "introducing_lines": {
+      "nifi-nar-bundles/nifi-framework-bundle/nifi-framework/nifi-web/nifi-jetty/src/main/java/org/apache/nifi/web/server/JettyServer.java": "906"
+    }
+  },
+  {
+    "cve": "CVE-2017-1000208",
+    "cwe": "CWE-502",
+    "repository": "https://github.com/swagger-api/swagger-parser",
+    "fixing": [
+      "4c6584306b40de9b2dfa9065c3a438cd918534af"
+    ],
+    "introducing": "4044ecfb80732b721ffa206388574cf08bf7d295",
+    "intro_stats": {
+      "4044ecfb80732b721ffa206388574cf08bf7d295": {
+        "add": 83,
+        "del": 27
+      }
+    },
+    "fixing_stats": {
+      "4c6584306b40de9b2dfa9065c3a438cd918534af": {
+        "add": 3,
+        "del": 2
+      }
+    },
+    "days_between": 527,
+    "fixing_lines": {
+      "modules/swagger-parser/src/main/java/io/swagger/parser/util/DeserializationUtils.java": "61;66"
+    },
+    "introducing_lines": {
+      "modules/swagger-parser/src/main/java/io/swagger/parser/util/DeserializationUtils.java": "61;66"
+    }
+  },
+  {
+    "cve": "CVE-2016-9879",
+    "cwe": "CWE-417",
+    "repository": "https://github.com/spring-projects/spring-security.git",
+    "fixing": [
+      "666e356ebc479194ba51e43bb99fc42f849b6175"
+    ],
+    "introducing": "7d97adc68789f4a191cee15de482530dd9d5c31d",
+    "intro_stats": {
+      "7d97adc68789f4a191cee15de482530dd9d5c31d": {
+        "add": 583,
+        "del": 52
+      }
+    },
+    "fixing_stats": {
+      "666e356ebc479194ba51e43bb99fc42f849b6175": {
+        "add": 126,
+        "del": 33
+      }
+    },
+    "days_between": 2247,
+    "fixing_lines": {
+      "web/src/main/java/org/springframework/security/web/firewall/DefaultHttpFirewall.java": "54-58"
+    },
+    "introducing_lines": {
+      "web/src/main/java/org/springframework/security/web/firewall/DefaultHttpFirewall.java": "24-33"
+    }
+  },
+  {
+    "cve": "CVE-2014-0094",
+    "cwe": "NVD-CWE-noinfo",
+    "repository": "https://github.com/apache/struts.git",
+    "fixing": [
+      "74e26830d2849a84729b33497f729e0f033dc147"
+    ],
+    "introducing": "bfbc4c04e007393986f374a02dfb7ded23bc9a05",
+    "intro_stats": {
+      "bfbc4c04e007393986f374a02dfb7ded23bc9a05": {
+        "add": 106,
+        "del": 101
+      }
+    },
+    "fixing_stats": {
+      "74e26830d2849a84729b33497f729e0f033dc147": {
+        "add": 7,
+        "del": 3
+      }
+    },
+    "days_between": 606,
+    "fixing_lines": {
+      "core/src/main/java/com/opensymphony/xwork2/security/DefaultExcludedPatternsChecker.java": "20"
+    },
+    "introducing_lines": {
+      "xwork-core/src/main/java/com/opensymphony/xwork2/DefaultExcludedPatternsChecker.java": "17-26"
+    }
+  },
+  {
+    "cve": "CVE-2020-1758",
+    "cwe": "CWE-295",
+    "repository": "https://github.com/keycloak/keycloak",
+    "fixing": [
+      "97b565469058cacac6d2559b2cff37effcca2cfd"
+    ],
+    "introducing": "80e2b8eb39af640eaf6cec8b9dcdd0eef7c48aa7",
+    "intro_stats": {
+      "80e2b8eb39af640eaf6cec8b9dcdd0eef7c48aa7": {
+        "add": 761,
+        "del": 101
+      }
+    },
+    "fixing_stats": {
+      "97b565469058cacac6d2559b2cff37effcca2cfd": {
+        "add": 62,
+        "del": 1
+      }
+    },
+    "days_between": 1556,
+    "fixing_lines": {
+      "services/src/main/java/org/keycloak/email/DefaultEmailSenderProvider.java": "95-96"
+    },
+    "introducing_lines": {
+      "services/src/main/java/org/keycloak/email/DefaultEmailSenderProvider.java": "66-69"
+    }
+  },
+  {
+    "cve": "CVE-2019-3875",
+    "cwe": "CWE-295",
+    "repository": "https://github.com/keycloak/keycloak",
+    "fixing": [
+      "a48698caa32933458916980ab05256f56099a337"
+    ],
+    "introducing": "0a4fd79b225df03d769a267c9b464893a36753c6",
+    "intro_stats": {
+      "0a4fd79b225df03d769a267c9b464893a36753c6": {
+        "add": 67,
+        "del": 0
+      }
+    },
+    "fixing_stats": {
+      "a48698caa32933458916980ab05256f56099a337": {
+        "add": 373,
+        "del": 91
+      }
+    },
+    "days_between": 371,
+    "fixing_lines": {
+      "services/src/main/java/org/keycloak/authentication/authenticators/x509/UserIdentityExtractor.java": "139-143;149-188;191-195"
+    },
+    "introducing_lines": {
+      "services/src/main/java/org/keycloak/authentication/authenticators/x509/UserIdentityExtractor.java": "102-144"
+    }
+  },
+  {
+    "cve": "CVE-2016-6652",
+    "cwe": "CWE-89",
+    "repository": "https://github.com/spring-projects/spring-data-jpa",
+    "fixing": [
+      "b8e7fecccc7dc8edcabb4704656a7abe6352c08f"
+    ],
+    "introducing": "a9cfe73511342c7f7d95a591bbf5ca1e7a8c1e86",
+    "intro_stats": {
+      "a9cfe73511342c7f7d95a591bbf5ca1e7a8c1e86": {
+        "add": 129,
+        "del": 11
+      }
+    },
+    "fixing_stats": {
+      "b8e7fecccc7dc8edcabb4704656a7abe6352c08f": {
+        "add": 491,
+        "del": 6
+      }
+    },
+    "days_between": 1844,
+    "fixing_lines": {
+      "src/main/java/org/springframework/data/jpa/repository/query/QueryUtils.java": "267-272"
+    },
+    "introducing_lines": {
+      "src/main/java/org/springframework/data/jpa/repository/query/QueryUtils.java": "169-181"
+    }
+  },
+  {
+    "cve": "CVE-2019-10083",
+    "cwe": "CWE-200",
+    "repository": "https://github.com/apache/nifi",
+    "fixing": [
+      "a97766d62f067845869c44b39604851c7ca91d02"
+    ],
+    "introducing": "4d998c12c95a6e5ce3d66c0d861e75e33b5cf013",
+    "intro_stats": {
+      "4d998c12c95a6e5ce3d66c0d861e75e33b5cf013": {
+        "add": 350029,
+        "del": 0
+      }
+    },
+    "fixing_stats": {
+      "a97766d62f067845869c44b39604851c7ca91d02": {
+        "add": 10,
+        "del": 0
+      }
+    },
+    "days_between": 1625,
+    "fixing_lines": {
+      "nifi-nar-bundles/nifi-framework-bundle/nifi-framework/nifi-web/nifi-web-api/src/main/java/org/apache/nifi/web/api/ProcessGroupResource.java": "478-482"
+    },
+    "introducing_lines": {
+      "nifi-nar-bundles/nifi-framework-bundle/nifi-framework/nifi-web/nifi-web-api/src/main/java/org/apache/nifi/web/api/ProcessGroupResource.java": "565-570"
+    }
+  },
+  {
+    "cve": "CVE-2016-8629",
+    "cwe": "CWE-264",
+    "repository": "https://github.com/keycloak/keycloak",
+    "fixing": [
+      "a78cfa4b2ca979a1981fb371cfdf2c7212f7b6e2"
+    ],
+    "introducing": "3e28ac1e463c78f4b181144d5ca41f578a2d3b8f",
+    "intro_stats": {
+      "3e28ac1e463c78f4b181144d5ca41f578a2d3b8f": {
+        "add": 633,
+        "del": 38
+      }
+    },
+    "fixing_stats": {
+      "a78cfa4b2ca979a1981fb371cfdf2c7212f7b6e2": {
+        "add": 161,
+        "del": 2
+      }
+    },
+    "days_between": 3,
+    "fixing_lines": {},
+    "introducing_lines": {}
+  },
+  {
+    "cve": "CVE-2019-0213",
+    "cwe": "CWE-79",
+    "repository": "https://github.com/apache/archiva",
+    "fixing": [
+      "a36035b49ba7d6514d6c386b51e1ad2512371b3d"
+    ],
+    "introducing": "1bb10ee01e2f32135eeaf12a6639cacd75563e04",
+    "intro_stats": {
+      "1bb10ee01e2f32135eeaf12a6639cacd75563e04": {
+        "add": 559,
+        "del": 1
+      }
+    },
+    "fixing_stats": {
+      "a36035b49ba7d6514d6c386b51e1ad2512371b3d": {
+        "add": 58,
+        "del": 3
+      }
+    },
+    "days_between": 2726,
+    "fixing_lines": {
+      "archiva-modules/archiva-base/archiva-repository-admin/archiva-repository-admin-default/src/main/java/org/apache/archiva/admin/repository/admin/DefaultArchivaAdministration.java": "329-338;344-346"
+    },
+    "introducing_lines": {
+      "archiva-modules/archiva-base/archiva-repository-admin/src/main/java/org/apache/archiva/admin/repository/admin/DefaultArchivaAdministration.java": "53"
+    }
+  },
+  {
+    "cve": "CVE-2020-7009",
+    "cwe": "CWE-269",
+    "repository": "https://github.com/elastic/elasticsearch",
+    "fixing": [
+      "1c5f53076b625c44111c1e9430dc36327a08858",
+      "6f59ef267b2c3567754f8bea87daafc34cd9bd5",
+      "7f21ade92407c5c65d2bd83a42e752838acdde5"
+    ],
+    "introducing": "fe36861ada3e75259ff601a9f6b0e1cd5fbb8afe",
+    "intro_stats": {
+      "fe36861ada3e75259ff601a9f6b0e1cd5fbb8afe": {
+        "add": 10697,
+        "del": 946
+      }
+    },
+    "fixing_stats": {
+      "1c5f53076b625c44111c1e9430dc36327a08858": {
+        "add": 153,
+        "del": 0
+      },
+      "6f59ef267b2c3567754f8bea87daafc34cd9bd5": {
+        "add": 149,
+        "del": 0
+      },
+      "7f21ade92407c5c65d2bd83a42e752838acdde5": {
+        "add": 150,
+        "del": 0
+      }
+    },
+    "days_between": 406,
+    "fixing_lines": {
+      "x-pack/plugin/security/src/main/java/org/elasticsearch/xpack/security/action/TransportCreateApiKeyAction.java": "55-59"
+    },
+    "introducing_lines": {
+      "x-pack/plugin/security/src/main/java/org/elasticsearch/xpack/security/action/TransportCreateApiKeyAction.java": "44"
+    }
+  },
+  {
+    "cve": "CVE-2016-3082",
+    "cwe": "CWE-20",
+    "repository": "https://gitbox.apache.org/repos/asf/struts.git",
+    "fixing": [
+      "6bd694b7980494c12d49ca1bf39f12aec3e03e2f"
+    ],
+    "introducing": "cfe77b1f8230ef18dfb2063806ebbfbc2d7d45bb",
+    "intro_stats": {
+      "cfe77b1f8230ef18dfb2063806ebbfbc2d7d45bb": {
+        "add": 0,
+        "del": 0
+      }
+    },
+    "fixing_stats": {
+      "6bd694b7980494c12d49ca1bf39f12aec3e03e2f": {
+        "add": 1,
+        "del": 6
+      }
+    },
+    "days_between": 3694,
+    "fixing_lines": {
+      "core/src/main/java/org/apache/struts2/views/xslt/XSLTResult.java": "407"
+    },
+    "introducing_lines": {
+      "core/src/main/java/org/apache/struts2/views/xslt/XSLTResult.java": "300"
+    }
+  },
+  {
+    "cve": "CVE-2014-0109",
+    "cwe": "CWE-399",
+    "repository": "https://git-wip-us.apache.org/repos/asf/cxf.git",
+    "fixing": [
+      "f8ed98e684c1a67a77ae8726db05a04a4978a445"
+    ],
+    "introducing": "88a9451b92180609b7bb93d0314bc8384f0c24a4",
+    "intro_stats": {
+      "88a9451b92180609b7bb93d0314bc8384f0c24a4": {
+        "add": 589746,
+        "del": 0
+      }
+    },
+    "fixing_stats": {
+      "f8ed98e684c1a67a77ae8726db05a04a4978a445": {
+        "add": 15,
+        "del": 4
+      }
+    },
+    "days_between": 2127,
+    "fixing_lines": {
+      "core/src/main/java/org/apache/cxf/interceptor/StaxInInterceptor.java": "77-90"
+    },
+    "introducing_lines": {}
+  },
+  {
+    "cve": "CVE-2018-1275",
+    "cwe": "CWE-358",
+    "repository": "https://github.com/spring-projects/spring-framework",
+    "fixing": [
+      "1db7e02de3eb0c011ee6681f5a12eb9d166fea8",
+      "d3acf45ea4db51fa5c4cbd0bc0e7b6d9ef805e6"
+    ],
+    "introducing": "2eeb2e92359381328789585233e54c9bbd41e6dc",
+    "intro_stats": {
+      "2eeb2e92359381328789585233e54c9bbd41e6dc": {
+        "add": 5964,
+        "del": 90
+      }
+    },
+    "fixing_stats": {
+      "1db7e02de3eb0c011ee6681f5a12eb9d166fea8": {
+        "add": 284,
+        "del": 15
+      },
+      "d3acf45ea4db51fa5c4cbd0bc0e7b6d9ef805e6": {
+        "add": 284,
+        "del": 15
+      }
+    },
+    "days_between": 1341,
+    "fixing_lines": {
+      "spring-expression/src/main/java/org/springframework/expression/spel/ast/MethodReference.java": "242-249"
+    },
+    "introducing_lines": {
+      "122": "122"
+    }
+  },
+  {
+    "cve": "CVE-2015-2156",
+    "cwe": "CWE-20",
+    "repository": "https://github.com/netty/netty",
+    "fixing": [
+      "97d871a7553a01384b43df855dccdda5205ae77",
+      "2caa38a2795fe1f1ae6ceda4d69e826ed7c55e5",
+      "31815598a2af37f0b71ea94eada70d6659c2375"
+    ],
+    "introducing": "0c55c85d06ccd2f0bd38a5376417b5c6b8c09aef",
+    "intro_stats": {
+      "0c55c85d06ccd2f0bd38a5376417b5c6b8c09aef": {
+        "add": 411,
+        "del": 351
+      }
+    },
+    "fixing_stats": {
+      "97d871a7553a01384b43df855dccdda5205ae77": {
+        "add": 1864,
+        "del": 1291
+      },
+      "2caa38a2795fe1f1ae6ceda4d69e826ed7c55e5": {
+        "add": 31,
+        "del": 31
+      },
+      "31815598a2af37f0b71ea94eada70d6659c2375": {
+        "add": 31,
+        "del": 31
+      }
+    },
+    "days_between": 1033,
+    "fixing_lines": {
+      "codec-http/src/main/java/io/netty/handler/codec/http/cookie/ClientCookieDecoder.java": "128-132;134-141"
+    },
+    "introducing_lines": {}
+  },
+  {
+    "cve": "CVE-2018-1324",
+    "cwe": "CWE-835",
+    "repository": "https://github.com/apache/commons-compress",
+    "fixing": [
+      "2a2f1dc48e22a34ddb72321a4db211da91aa933b"
+    ],
+    "introducing": "a433f625f89c1d464b05186411ff20802e292fb4",
+    "intro_stats": {
+      "a433f625f89c1d464b05186411ff20802e292fb4": {
+        "add": 4855,
+        "del": 0
+      }
+    },
+    "fixing_stats": {
+      "2a2f1dc48e22a34ddb72321a4db211da91aa933b": {
+        "add": 1,
+        "del": 1
+      }
+    },
+    "days_between": 740,
+    "fixing_lines": {
+      "src/main/java/org/apache/commons/compress/archivers/zip/X0017_StrongEncryptionHeader.java": "313"
+    },
+    "introducing_lines": {
+      "src/main/java/org/apache/commons/compress/archivers/zip/X0017_StrongEncryptionHeader.java": "395"
+    }
+  },
+  {
+    "cve": "CVE-2014-0114",
+    "cwe": "CWE-20",
+    "repository": "https://github.com/apache/commons-beanutils",
+    "fixing": [
+      "2412c90ba5584fed123fa6a33e752e6c8eaf74e9",
+      "4e410e068b8d367c53766a7da712b1b6f3fd8101",
+      "62e82ad92cf4818709d6044aaf257b73d42659a4"
+    ],
+    "introducing": "25ac3249dc2a40bd52ceccc9251c8446b036d197",
+    "intro_stats": {
+      "25ac3249dc2a40bd52ceccc9251c8446b036d197": {
+        "add": 38,
+        "del": 5
+      }
+    },
+    "fixing_stats": {
+      "2412c90ba5584fed123fa6a33e752e6c8eaf74e9": {
+        "add": 59,
+        "del": 0
+      },
+      "4e410e068b8d367c53766a7da712b1b6f3fd8101": {
+        "add": 191,
+        "del": 0
+      },
+      "62e82ad92cf4818709d6044aaf257b73d42659a4": {
+        "add": 78,
+        "del": 0
+      }
+    },
+    "days_between": 170,
+    "fixing_lines": {
+      "src/main/java/org/apache/commons/beanutils/SuppressPropertiesBeanIntrospector.java": "32-33",
+      "src/main/java/org/apache/commons/beanutils/PropertyUtilsBean.java": "191"
+    },
+    "introducing_lines": {
+      "src/main/java/org/apache/commons/beanutils/PropertyUtilsBean.java": "188-191"
+    }
+  },
+  {
+    "cve": "CVE-2011-1772",
+    "cwe": "CWE-79",
+    "repository": "https://github.com/apache/struts",
+    "fixing": [
+      "885ab3459e146ff830d1f7257f809f4a3dd4493a"
+    ],
+    "introducing": "0c543aef318341ca9bd482e15f1637497b8a4dfd",
+    "intro_stats": {
+      "0c543aef318341ca9bd482e15f1637497b8a4dfd": {
+        "add": 72963,
+        "del": 0
+      }
+    },
+    "fixing_stats": {
+      "885ab3459e146ff830d1f7257f809f4a3dd4493a": {
+        "add": 6,
+        "del": 6
+      }
+    },
+    "days_between": 377,
+    "fixing_lines": {
+      "xwork-core/src/main/java/com/opensymphony/xwork2/DefaultActionProxy.java": "77;80"
+    },
+    "introducing_lines": {
+      "xwork-core/src/main/java/com/opensymphony/xwork2/DefaultActionProxy.java": "77;80"
+    }
+  },
+  {
+    "cve": "CVE-2018-8012",
+    "cwe": "CWE-862",
+    "repository": "https://github.com/apache/zookeeper",
+    "fixing": [
+      "5a29daedeb5ac7e9e2af87ce1a7bbfad230d5c8",
+      "75411ab34a3d53c43c2d508b12314a9788aa417",
+      "8a06bd1ccef382461c7b0a63f2012f4aeac9075"
+    ],
+    "introducing": "0957b8404e1ecfc5703d7c2827752773b7dc23be",
+    "intro_stats": {
+      "0957b8404e1ecfc5703d7c2827752773b7dc23be": {
+        "add": 748,
+        "del": 532
+      }
+    },
+    "fixing_stats": {
+      "5a29daedeb5ac7e9e2af87ce1a7bbfad230d5c8": {
+        "add": 3753,
+        "del": 413
+      },
+      "75411ab34a3d53c43c2d508b12314a9788aa417": {
+        "add": 3755,
+        "del": 396
+      },
+      "8a06bd1ccef382461c7b0a63f2012f4aeac9075": {
+        "add": 4655,
+        "del": 435
+      }
+    },
+    "days_between": 2593,
+    "fixing_lines": {
+      "src/java/main/org/apache/zookeeper/client/ZooKeeperSaslClient.java": "255-256"
+    },
+    "introducing_lines": {}
+  },
+  {
+    "cve": "CVE-2020-5245",
+    "cwe": "CWE-74",
+    "repository": "https://github.com/dropwizard/dropwizard",
+    "fixing": [
+      "d87d1e4f8e20f6494c0232bf8560c961b46db634"
+    ],
+    "introducing": "98fa28a60b235d9c600fac578227086fc86b42df",
+    "intro_stats": {
+      "98fa28a60b235d9c600fac578227086fc86b42df": {
+        "add": 492,
+        "del": 0
+      }
+    },
+    "fixing_stats": {
+      "d87d1e4f8e20f6494c0232bf8560c961b46db634": {
+        "add": 197,
+        "del": 91
+      }
+    },
+    "days_between": 831,
+    "fixing_lines": {
+      "dropwizard-validation/src/main/java/io/dropwizard/validation/selfvalidating/ViolationCollector.java": "28-97"
+    },
+    "introducing_lines": {
+      "dropwizard-validation/src/main/java/io/dropwizard/validation/selfvalidating/ViolationCollector.java": "23"
+    }
+  },
+  {
+    "cve": "CVE-2019-17569",
+    "cwe": "CWE-444",
+    "repository": "https://github.com/apache/tomcat",
+    "fixing": [
+      "060ecc",
+      "959f1d",
+      "b191a0"
+    ],
+    "introducing": "b3a8e01654549b0b79fc7c7684cd492cd5aafe4b",
+    "intro_stats": {
+      "b3a8e01654549b0b79fc7c7684cd492cd5aafe4b": {
+        "add": 13,
+        "del": 14
+      }
+    },
+    "fixing_stats": {
+      "060ecc": {
+        "add": 123,
+        "del": 33
+      },
+      "959f1d": {
+        "add": 123,
+        "del": 33
+      },
+      "b191a0": {
+        "add": 123,
+        "del": 33
+      }
+    },
+    "days_between": 97,
+    "fixing_lines": {
+      "java/org/apache/coyote/http11/Http11Processor.java": "726-733"
+    },
+    "introducing_lines": {
+      "java/org/apache/coyote/http11/Http11Processor.java": "726-730"
+    }
+  },
+  {
+    "cve": "CVE-2020-5411",
+    "cwe": "CWE-502",
+    "repository": "https://github.com/spring-projects/spring-batch",
+    "fixing": [
+      "6d7d2927ddcd8c7ddd902fa1196b1e780c0d70ea"
+    ],
+    "introducing": "22109eea84e4ea5ab773f58baad2b366b1858591",
+    "intro_stats": {
+      "22109eea84e4ea5ab773f58baad2b366b1858591": {
+        "add": 307,
+        "del": 294
+      }
+    },
+    "fixing_stats": {
+      "6d7d2927ddcd8c7ddd902fa1196b1e780c0d70ea": {
+        "add": 319,
+        "del": 6
+      }
+    },
+    "days_between": 1513,
+    "fixing_lines": {
+      "spring-batch-core/src/main/java/org/springframework/batch/core/repository/dao/Jackson2ExecutionContextStringSerializer.java": "110-111;201-350"
+    },
+    "introducing_lines": {}
+  },
+  {
+    "cve": "CVE-2014-0002",
+    "cwe": "CWE-264",
+    "repository": "https://git-wip-us.apache.org/repos/asf/camel.git",
+    "fixing": [
+      "54b65c1d30848835f26bd138c0ba407bc1e560d",
+      "2ec54fa0c13ae65bdcccff764af081a79fcc05f",
+      "341d4e6cca71c53c90962d1c3d45fc9e05cc50c6"
+    ],
+    "introducing": "4abc7be95f5a39c4ab0781da53e89b13fe863990",
+    "intro_stats": {
+      "4abc7be95f5a39c4ab0781da53e89b13fe863990": {
+        "add": 267,
+        "del": 36
+      }
+    },
+    "fixing_stats": {
+      "54b65c1d30848835f26bd138c0ba407bc1e560d": {
+        "add": 9,
+        "del": 14
+      },
+      "2ec54fa0c13ae65bdcccff764af081a79fcc05f": {
+        "add": 9,
+        "del": 14
+      },
+      "341d4e6cca71c53c90962d1c3d45fc9e05cc50c6": {
+        "add": 9,
+        "del": 14
+      }
+    },
+    "days_between": 788,
+    "fixing_lines": {
+      "camel-core/src/main/java/org/apache/camel/component/xslt/XsltEndpoint.java": "80-81;83-84"
+    },
+    "introducing_lines": {
+      "camel-core/src/main/java/org/apache/camel/component/xslt/XsltEndpoint.java": "83-96"
+    }
+  },
+  {
+    "cve": "CVE-2015-5204",
+    "cwe": "NVD-CWE-Other",
+    "repository": "https://gitbox.apache.org/repos/asf/cordova-plugin-file-transfer.git",
+    "fixing": [
+      "2b31723708256c08c5209308eb6ccfb03e2ab990",
+      "8fcdb1aa3deb892691b44bdf57e8d780da09e2a4",
+      "ad6647120db12f0e67ee4a952a71ea494a39a475"
+    ],
+    "introducing": "35e89b3aeccc9377d85ea382091ea50a0915949f",
+    "intro_stats": {
+      "35e89b3aeccc9377d85ea382091ea50a0915949f": {
+        "add": 1115,
+        "del": 0
+      }
+    },
+    "fixing_stats": {
+      "2b31723708256c08c5209308eb6ccfb03e2ab990": {
+        "add": 1,
+        "del": 1
+      },
+      "8fcdb1aa3deb892691b44bdf57e8d780da09e2a4": {
+        "add": 1,
+        "del": 0
+      },
+      "ad6647120db12f0e67ee4a952a71ea494a39a475": {
+        "add": 21,
+        "del": 1
+      }
+    },
+    "days_between": 873,
+    "fixing_lines": {
+      "src/android/FileTransfer.java": "209"
+    },
+    "introducing_lines": {
+      "src/android/FileTransfer.java": "237-254"
+    }
+  },
+  {
+    "cve": "CVE-2019-0214",
+    "cwe": "NVD-CWE-noinfo",
+    "repository": "https://github.com/apache/archiva",
+    "fixing": [
+      "796716d44183bd315dd20184a66b39ae533eb747"
+    ],
+    "introducing": "a36035b49ba7d6514d6c386b51e1ad2512371b3d",
+    "intro_stats": {
+      "a36035b49ba7d6514d6c386b51e1ad2512371b3d": {
+        "add": 58,
+        "del": 3
+      }
+    },
+    "fixing_stats": {
+      "796716d44183bd315dd20184a66b39ae533eb747": {
+        "add": 74,
+        "del": 22
+      }
+    },
+    "days_between": 47,
+    "fixing_lines": {
+      "archiva-modules/archiva-base/archiva-repository-admin/archiva-repository-admin-default/src/main/java/org/apache/archiva/admin/repository/admin/DefaultArchivaAdministration.java": "330-335"
+    },
+    "introducing_lines": {
+      "archiva-modules/archiva-base/archiva-repository-admin/archiva-repository-admin-default/src/main/java/org/apache/archiva/admin/repository/admin/DefaultArchivaAdministration.java": "329-339"
+    }
+  },
+  {
+    "cve": "CVE-2018-1260",
+    "cwe": "CWE-94",
+    "repository": "https://github.com/spring-projects/spring-security-oauth",
+    "fixing": [
+      "1c6815ac1b26fb2f079adbe283c43a7fd0885f3",
+      "6b1791179c1092553aa0690da22dac4dff2fc58",
+      "8e9792c1963f1aeea81ca618785eb8d71d1cd1d",
+      "adb1e6d19c681f394c9513799b81b527b0cb007"
+    ],
+    "introducing": "787c9b47d801b0cf08d35bca4805986c43f56836",
+    "intro_stats": {
+      "787c9b47d801b0cf08d35bca4805986c43f56836": {
+        "add": 346,
+        "del": 138
+      }
+    },
+    "fixing_stats": {
+      "1c6815ac1b26fb2f079adbe283c43a7fd0885f3": {
+        "add": 171,
+        "del": 209
+      },
+      "6b1791179c1092553aa0690da22dac4dff2fc58": {
+        "add": 171,
+        "del": 209
+      },
+      "8e9792c1963f1aeea81ca618785eb8d71d1cd1d": {
+        "add": 171,
+        "del": 209
+      },
+      "adb1e6d19c681f394c9513799b81b527b0cb007": {
+        "add": 171,
+        "del": 209
+      }
+    },
+    "days_between": 1495,
+    "fixing_lines": {
+      "spring-security-oauth2/src/main/java/org/springframework/security/oauth2/provider/endpoint/WhitelabelApprovalEndpoint.java": "31-43"
+    },
+    "introducing_lines": {
+      "spring-security-oauth2/src/main/java/org/springframework/security/oauth2/provider/endpoint/WhitelabelApprovalEndpoint.java": "26"
+    }
+  },
+  {
+    "cve": "CVE-2016-2141",
+    "cwe": "NVD-CWE-noinfo",
+    "repository": "https://github.com/belaban/JGroups",
+    "fixing": [
+      "38a882331035ffed205d15a5c92b471fd09659c",
+      "c3ad22234ef84d06d04d908b3c94c0d11df8afd",
+      "fba182c14075789e1d2c976d50d9018c671ad0b"
+    ],
+    "introducing": "b67a6e80598b9ec728997e12bbc13d56bb23ba1c",
+    "intro_stats": {
+      "b67a6e80598b9ec728997e12bbc13d56bb23ba1c": {
+        "add": 62,
+        "del": 42
+      }
+    },
+    "fixing_stats": {
+      "38a882331035ffed205d15a5c92b471fd09659c": {
+        "add": 2507,
+        "del": 2494
+      },
+      "c3ad22234ef84d06d04d908b3c94c0d11df8afd": {
+        "add": 3262,
+        "del": 133
+      },
+      "fba182c14075789e1d2c976d50d9018c671ad0b": {
+        "add": 2223,
+        "del": 97
+      }
+    },
+    "days_between": 1971,
+    "fixing_lines": {
+      "src/org/jgroups/protocols/AUTH.java": "140-150"
+    },
+    "introducing_lines": {
+      "src/org/jgroups/protocols/AUTH.java": "78-84"
+    }
+  },
+  {
+    "cve": "CVE-2016-3674",
+    "cwe": "CWE-200",
+    "repository": "https://github.com/x-stream/xstream",
+    "fixing": [
+      "25c6704bea149ee93c294ae5b6e0aecd182fea88",
+      "7c77ac0397a1f93c69d2776a13c31957f55d1647",
+      "87172cfc1dd7f8f6e137963c778b03efd14ac446",
+      "c9b121a88664988ccbabd83fa27bfc2a5e0bd139",
+      "5b5cd6d8137f645c5d57b648afb1a305967aa7f",
+      "696ec886a23dae880cf12e34e1fe09c5df8fe94",
+      "806949e1b3c22a3b31819a37402489a0303221a",
+      "e4f1457e681e015be83c6b0b84947676980e29d"
+    ],
+    "introducing": "4fd39f2f2616d4ea9e1d25d30dc78931be01dfb0",
+    "intro_stats": {
+      "4fd39f2f2616d4ea9e1d25d30dc78931be01dfb0": {
+        "add": 484,
+        "del": 58
+      }
+    },
+    "fixing_stats": {
+      "25c6704bea149ee93c294ae5b6e0aecd182fea88": {
+        "add": 4,
+        "del": 4
+      },
+      "7c77ac0397a1f93c69d2776a13c31957f55d1647": {
+        "add": 24,
+        "del": 10
+      },
+      "87172cfc1dd7f8f6e137963c778b03efd14ac446": {
+        "add": 38,
+        "del": 16
+      },
+      "c9b121a88664988ccbabd83fa27bfc2a5e0bd139": {
+        "add": 18,
+        "del": 10
+      },
+      "5b5cd6d8137f645c5d57b648afb1a305967aa7f": {
+        "add": 24,
+        "del": 10
+      },
+      "696ec886a23dae880cf12e34e1fe09c5df8fe94": {
+        "add": 53,
+        "del": 52
+      },
+      "806949e1b3c22a3b31819a37402489a0303221a": {
+        "add": 22,
+        "del": 8
+      },
+      "e4f1457e681e015be83c6b0b84947676980e29d": {
+        "add": 19,
+        "del": 11
+      }
+    },
+    "days_between": 2344,
+    "fixing_lines": {
+      "xstream/src/java/com/thoughtworks/xstream/io/xml/DomDriver.java": "67",
+      "xstream/src/java/com/thoughtworks/xstream/io/xml/Dom4JDriver.java": "165-173"
+    },
+    "introducing_lines": {}
+  },
+  {
+    "cve": "CVE-2018-12540",
+    "cwe": "CWE-352",
+    "repository": "https://github.com/vert-x3/vertx-web",
+    "fixing": [
+      "98891b1d9e022b467a3e4674aca4d1889849b1d",
+      "f42b193b15a29b772fc576b2d0f2497e7474a7e"
+    ],
+    "introducing": "341ecefb8db8d99918c8a69fe57436f72bac509a",
+    "intro_stats": {
+      "341ecefb8db8d99918c8a69fe57436f72bac509a": {
+        "add": 130,
+        "del": 34
+      }
+    },
+    "fixing_stats": {
+      "98891b1d9e022b467a3e4674aca4d1889849b1d": {
+        "add": 4,
+        "del": 3
+      },
+      "f42b193b15a29b772fc576b2d0f2497e7474a7e": {
+        "add": 4,
+        "del": 3
+      }
+    },
+    "days_between": 1002,
+    "fixing_lines": {
+      "vertx-web/src/main/java/io/vertx/ext/web/handler/impl/CSRFHandlerImpl.java": "109;111;171-172"
+    },
+    "introducing_lines": {
+      "vertx-web/src/main/java/io/vertx/ext/web/handler/impl/CSRFHandlerImpl.java": "141"
+    }
+  },
+  {
+    "cve": "CVE-2018-18389",
+    "cwe": "",
+    "repository": "https://github.com/neo4j/neo4j",
+    "fixing": [
+      "46de5d01ae2741ffe04c36270fc62c6d490f65c9"
+    ],
+    "introducing": "26ff65ccf13111c42942d8652e9e616e91e1fd08",
+    "intro_stats": {
+      "26ff65ccf13111c42942d8652e9e616e91e1fd08": {
+        "add": 76,
+        "del": 21
+      }
+    },
+    "fixing_stats": {
+      "46de5d01ae2741ffe04c36270fc62c6d490f65c9": {
+        "add": 42,
+        "del": 0
+      }
+    },
+    "days_between": 768,
+    "fixing_lines": {
+      "enterprise/security/src/main/java/org/neo4j/server/security/enterprise/auth/LdapRealm.java": "236"
+    },
+    "introducing_lines": {
+      "enterprise/security/src/main/java/org/neo4j/server/security/enterprise/auth/LdapRealm.java": "150-153"
+    }
+  }
+]

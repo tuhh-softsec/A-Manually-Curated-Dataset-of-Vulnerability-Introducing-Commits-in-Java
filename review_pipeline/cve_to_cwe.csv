@@ -1,0 +1,730 @@
+cve,cwe_id,cwe_name,status_code
+CVE-2020-9547,CWE-502,Deserialization of Untrusted Data,200
+CVE-2018-11762,CWE-22,Improper Limitation of a Pathname to a Restricted Directory ('Path Traversal'),200
+CVE-2019-12419,CWE-863,Incorrect Authorization,200
+CVE-2019-17359,CWE-770,Allocation of Resources Without Limits or Throttling,200
+CVE-2013-5855,CWE-79,Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting'),200
+CVE-2018-1282,CWE-89,Improper Neutralization of Special Elements used in an SQL Command ('SQL Injection'),200
+CVE-2017-7536,CWE-470,Use of Externally-Controlled Input to Select Classes or Code ('Unsafe Reflection'),200
+CVE-2010-1244,CWE-352,Cross-Site Request Forgery (CSRF),200
+CVE-2017-4971,CWE-1188,Insecure Default Initialization of Resource,200
+CVE-2018-19361,CWE-502,Deserialization of Untrusted Data,200
+CVE-2016-4464,CWE-284,Improper Access Control,200
+CVE-2019-14379,CWE-915,Improperly Controlled Modification of Dynamically-Determined Object Attributes,200
+CVE-2019-0225,CWE-22,Improper Limitation of a Pathname to a Restricted Directory ('Path Traversal'),200
+CVE-2018-1271,CWE-22,Improper Limitation of a Pathname to a Restricted Directory ('Path Traversal'),200
+CVE-2016-4009,CWE-119,Improper Restriction of Operations within the Bounds of a Memory Buffer,200
+CVE-2014-3527,CWE-287,Improper Authentication,200
+CVE-2019-0213,CWE-79,Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting'),200
+CVE-2016-6795,CWE-22,Improper Limitation of a Pathname to a Restricted Directory ('Path Traversal'),200
+CVE-2019-3802,NVD-CWE-Other,Other,200
+CVE-2018-12541,CWE-119,Improper Restriction of Operations within the Bounds of a Memory Buffer,200
+CVE-2018-17201,NVD-CWE-noinfo,Insufficient Information,200
+CVE-2019-12410,CWE-909,Missing Initialization of Resource,200
+CVE-2012-0838,CWE-20,Improper Input Validation,200
+CVE-2018-14642,CWE-200,Exposure of Sensitive Information to an Unauthorized Actor,200
+CVE-2017-3154,CWE-200,Exposure of Sensitive Information to an Unauthorized Actor,200
+CVE-2015-2913,CWE-200,Exposure of Sensitive Information to an Unauthorized Actor,200
+CVE-2019-0214,NVD-CWE-noinfo,Insufficient Information,200
+CVE-2013-7398,CWE-345,Insufficient Verification of Data Authenticity,200
+CVE-2018-12972,CWE-78,Improper Neutralization of Special Elements used in an OS Command ('OS Command Injection'),200
+CVE-2017-2670,CWE-835,Loop with Unreachable Exit Condition ('Infinite Loop'),200
+CVE-2013-6448,CWE-264,"Permissions, Privileges, and Access Controls",200
+CVE-2020-11971,NVD-CWE-noinfo,Insufficient Information,200
+CVE-2018-7574,CWE-125,Out-of-bounds Read,200
+CVE-2021-22696,CWE-918,Server-Side Request Forgery (SSRF),200
+CVE-2016-3081,CWE-77,Improper Neutralization of Special Elements used in a Command ('Command Injection'),200
+CVE-2020-11976,CWE-552,Files or Directories Accessible to External Parties,200
+CVE-2019-17555,CWE-20,Improper Input Validation,200
+CVE-2019-10770,CWE-79,Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting'),200
+CVE-2020-1925,CWE-918,Server-Side Request Forgery (SSRF),200
+CVE-2020-13883,CWE-611,Improper Restriction of XML External Entity Reference,200
+CVE-2016-4430,CWE-352,Cross-Site Request Forgery (CSRF),200
+CVE-2018-1000632,CWE-91,XML Injection (aka Blind XPath Injection),200
+CVE-2018-14627,CWE-319,Cleartext Transmission of Sensitive Information,200
+CVE-2019-17563,CWE-384,Session Fixation,200
+CVE-2016-3088,CWE-20,Improper Input Validation,200
+CVE-2016-2162,CWE-79,Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting'),200
+CVE-2016-4437,CWE-284,Improper Access Control,200
+CVE-2018-17297,CWE-22,Improper Limitation of a Pathname to a Restricted Directory ('Path Traversal'),200
+CVE-2013-4316,CWE-16,Configuration,200
+CVE-2008-1728,CWE-399,Resource Management Errors,200
+CVE-2021-44228,CWE-502,Deserialization of Untrusted Data,200
+CVE-2020-7019,CWE-269,Improper Privilege Management,200
+CVE-2018-12540,CWE-352,Cross-Site Request Forgery (CSRF),200
+CVE-2019-10174,CWE-470,Use of Externally-Controlled Input to Select Classes or Code ('Unsafe Reflection'),200
+CVE-2015-6748,CWE-79,Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting'),200
+CVE-2016-6793,CWE-502,Deserialization of Untrusted Data,200
+CVE-2015-2912,CWE-352,Cross-Site Request Forgery (CSRF),200
+CVE-2015-0225,CWE-77,Improper Neutralization of Special Elements used in a Command ('Command Injection'),200
+CVE-2019-10173,CWE-502,Deserialization of Untrusted Data,200
+CVE-2019-12416,CWE-74,Improper Neutralization of Special Elements in Output Used by a Downstream Component ('Injection'),200
+CVE-2019-12086,CWE-502,Deserialization of Untrusted Data,200
+CVE-2018-20227,CWE-22,Improper Limitation of a Pathname to a Restricted Directory ('Path Traversal'),200
+CVE-2020-9548,CWE-502,Deserialization of Untrusted Data,200
+CVE-2020-10650,,,-10
+CVE-2018-11799,CWE-20,Improper Input Validation,200
+CVE-2019-0212,NVD-CWE-noinfo,Insufficient Information,200
+CVE-2017-15089,CWE-502,Deserialization of Untrusted Data,200
+CVE-2013-7397,CWE-345,Insufficient Verification of Data Authenticity,200
+CVE-2017-7957,CWE-20,Improper Input Validation,200
+CVE-2016-9177,CWE-22,Improper Limitation of a Pathname to a Restricted Directory ('Path Traversal'),200
+CVE-2018-1284,CWE-200,Exposure of Sensitive Information to an Unauthorized Actor,200
+CVE-2017-3164,CWE-918,Server-Side Request Forgery (SSRF),200
+CVE-2018-19360,CWE-502,Deserialization of Untrusted Data,200
+CVE-2016-4465,CWE-20,Improper Input Validation,200
+CVE-2020-7622,NVD-CWE-Other,Other,200
+CVE-2018-1270,CWE-358,Improperly Implemented Security Check for Standard,200
+CVE-2018-11307,CWE-502,Deserialization of Untrusted Data,200
+CVE-2019-17531,CWE-502,Deserialization of Untrusted Data,200
+CVE-2020-9546,CWE-502,Deserialization of Untrusted Data,200
+CVE-2020-11111,CWE-502,Deserialization of Untrusted Data,200
+CVE-2019-11269,CWE-601,URL Redirection to Untrusted Site ('Open Redirect'),200
+CVE-2019-12418,NVD-CWE-noinfo,Insufficient Information,200
+CVE-2017-3163,CWE-22,Improper Limitation of a Pathname to a Restricted Directory ('Path Traversal'),200
+CVE-2016-4436,NVD-CWE-noinfo,Insufficient Information,200
+CVE-2019-12814,CWE-502,Deserialization of Untrusted Data,200
+CVE-2021-27582,CWE-915,Improperly Controlled Modification of Dynamically-Determined Object Attributes,200
+CVE-2021-45105,CWE-20,Improper Input Validation,200
+CVE-2016-4431,CWE-20,Improper Input Validation,200
+CVE-2013-4310,CWE-264,"Permissions, Privileges, and Access Controls",200
+CVE-2013-6447,CWE-200,Exposure of Sensitive Information to an Unauthorized Actor,200
+CVE-2018-7575,CWE-190,Integer Overflow or Wraparound,200
+CVE-2020-14062,CWE-502,Deserialization of Untrusted Data,200
+CVE-2015-5531,CWE-22,Improper Limitation of a Pathname to a Restricted Directory ('Path Traversal'),200
+CVE-2019-17554,CWE-611,Improper Restriction of XML External Entity Reference,200
+CVE-2018-1000850,CWE-22,Improper Limitation of a Pathname to a Restricted Directory ('Path Traversal'),200
+CVE-2016-4438,CWE-20,Improper Input Validation,200
+CVE-2008-6505,CWE-22,Improper Limitation of a Pathname to a Restricted Directory ('Path Traversal'),200
+CVE-2014-0109,CWE-399,Resource Management Errors,200
+CVE-2016-3087,CWE-20,Improper Input Validation,200
+CVE-2016-7043,CWE-255,Credentials Management Errors,200
+CVE-2017-12174,CWE-400,Uncontrolled Resource Consumption,200
+CVE-2016-6814,CWE-502,Deserialization of Untrusted Data,200
+CVE-2019-12395,CWE-287,Improper Authentication,200
+CVE-2021-45046,CWE-502,Deserialization of Untrusted Data,200
+CVE-2016-0784,CWE-22,Improper Limitation of a Pathname to a Restricted Directory ('Path Traversal'),200
+CVE-2019-14439,CWE-502,Deserialization of Untrusted Data,200
+CVE-2018-8014,CWE-1188,Insecure Default Initialization of Resource,200
+CVE-2016-0783,CWE-200,Exposure of Sensitive Information to an Unauthorized Actor,200
+CVE-2020-11006,CWE-79,Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting'),200
+CVE-2019-14892,CWE-502,Deserialization of Untrusted Data,200
+CVE-2018-12691,CWE-362,Concurrent Execution using Shared Resource with Improper Synchronization ('Race Condition'),200
+CVE-2020-5408,CWE-330,Use of Insufficiently Random Values,200
+CVE-2013-6397,CWE-22,Improper Limitation of a Pathname to a Restricted Directory ('Path Traversal'),200
+CVE-2020-36282,CWE-502,Deserialization of Untrusted Data,200
+CVE-2018-5968,CWE-502,Deserialization of Untrusted Data,200
+CVE-2016-5001,CWE-200,Exposure of Sensitive Information to an Unauthorized Actor,200
+CVE-2018-1190,CWE-79,Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting'),200
+CVE-2016-0779,CWE-502,Deserialization of Untrusted Data,200
+CVE-2018-8025,CWE-362,Concurrent Execution using Shared Resource with Improper Synchronization ('Race Condition'),200
+CVE-2017-15703,CWE-502,Deserialization of Untrusted Data,200
+CVE-2020-13935,CWE-835,Loop with Unreachable Exit Condition ('Infinite Loop'),200
+CVE-2018-18531,CWE-330,Use of Insufficiently Random Values,200
+CVE-2018-10936,CWE-297,Improper Validation of Certificate with Host Mismatch,200
+CVE-2018-1999020,CWE-22,Improper Limitation of a Pathname to a Restricted Directory ('Path Traversal'),200
+CVE-2017-1000207,CWE-502,Deserialization of Untrusted Data,200
+CVE-2020-12480,CWE-352,Cross-Site Request Forgery (CSRF),200
+CVE-2018-1305,NVD-CWE-noinfo,Insufficient Information,200
+CVE-2019-10202,CWE-502,Deserialization of Untrusted Data,200
+CVE-2020-9296,CWE-917,Improper Neutralization of Special Elements used in an Expression Language Statement ('Expression La,200
+CVE-2016-4977,CWE-19,Data Processing Errors,200
+CVE-2018-11047,CWE-863,Incorrect Authorization,200
+CVE-2020-1695,NVD-CWE-Other,Other,200
+CVE-2020-10714,CWE-384,Session Fixation,200
+CVE-2016-2426,CWE-200,Exposure of Sensitive Information to an Unauthorized Actor,200
+CVE-2014-1904,CWE-79,Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting'),200
+CVE-2018-11040,CWE-829,Inclusion of Functionality from Untrusted Control Sphere,200
+CVE-2016-4970,CWE-835,Loop with Unreachable Exit Condition ('Infinite Loop'),200
+CVE-2013-2135,CWE-94,Improper Control of Generation of Code ('Code Injection'),200
+CVE-2018-9159,CWE-22,Improper Limitation of a Pathname to a Restricted Directory ('Path Traversal'),200
+CVE-2015-3189,CWE-640,Weak Password Recovery Mechanism for Forgotten Password,200
+CVE-2016-1000343,CWE-310,Cryptographic Issues,200
+CVE-2014-0225,CWE-611,Improper Restriction of XML External Entity Reference,200
+CVE-2015-1427,CWE-284,Improper Access Control,200
+CVE-2012-4386,CWE-352,Cross-Site Request Forgery (CSRF),200
+CVE-2019-0199,CWE-400,Uncontrolled Resource Consumption,200
+CVE-2016-1000344,CWE-310,Cryptographic Issues,200
+CVE-2019-5427,CWE-776,Improper Restriction of Recursive Entity References in DTDs ('XML Entity Expansion'),200
+CVE-2019-10462,CWE-352,Cross-Site Request Forgery (CSRF),200
+CVE-2016-8744,CWE-502,Deserialization of Untrusted Data,200
+CVE-2016-10726,CWE-22,Improper Limitation of a Pathname to a Restricted Directory ('Path Traversal'),200
+CVE-2017-9787,NVD-CWE-noinfo,Insufficient Information,200
+CVE-2020-13934,CWE-476,NULL Pointer Dereference,200
+CVE-2013-2193,CWE-287,Improper Authentication,200
+CVE-2019-10091,CWE-295,Improper Certificate Validation,200
+CVE-2019-3778,CWE-601,URL Redirection to Untrusted Site ('Open Redirect'),200
+CVE-2016-5007,CWE-264,"Permissions, Privileges, and Access Controls",200
+CVE-2018-1196,CWE-59,Improper Link Resolution Before File Access ('Link Following'),200
+CVE-2018-1000129,CWE-79,Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting'),200
+CVE-2020-13933,NVD-CWE-noinfo,Insufficient Information,200
+CVE-2016-0740,CWE-119,Improper Restriction of Operations within the Bounds of a Memory Buffer,200
+CVE-2018-8015,CWE-674,Uncontrolled Recursion,200
+CVE-2017-1000208,CWE-502,Deserialization of Untrusted Data,200
+CVE-2019-14893,CWE-502,Deserialization of Untrusted Data,200
+CVE-2020-11007,CWE-20,Improper Input Validation,200
+CVE-2019-5475,CWE-78,Improper Neutralization of Special Elements used in an OS Command ('OS Command Injection'),200
+CVE-2018-8012,CWE-862,Missing Authorization,200
+CVE-2016-0785,CWE-20,Improper Input Validation,200
+CVE-2020-5407,CWE-347,Improper Verification of Cryptographic Signature,200
+CVE-2017-13098,CWE-203,Observable Discrepancy,200
+CVE-2016-1000345,CWE-361,7PK - Time and State,200
+CVE-2019-11777,CWE-755,Improper Handling of Exceptional Conditions,200
+CVE-2019-10463,CWE-276,Incorrect Default Permissions,200
+CVE-2016-1000342,CWE-347,Improper Verification of Cryptographic Signature,200
+CVE-2018-1000180,CWE-327,Use of a Broken or Risky Cryptographic Algorithm,200
+CVE-2018-1335,NVD-CWE-noinfo,Insufficient Information,200
+CVE-2018-8041,CWE-22,Improper Limitation of a Pathname to a Restricted Directory ('Path Traversal'),200
+CVE-2012-4387,CWE-264,"Permissions, Privileges, and Access Controls",200
+CVE-2019-0191,CWE-22,Improper Limitation of a Pathname to a Restricted Directory ('Path Traversal'),200
+CVE-2018-1131,CWE-502,Deserialization of Untrusted Data,200
+CVE-2015-7521,CWE-287,Improper Authentication,200
+CVE-2013-2134,CWE-94,Improper Control of Generation of Code ('Code Injection'),200
+CVE-2019-12761,CWE-94,Improper Control of Generation of Code ('Code Injection'),200
+CVE-2018-11041,CWE-601,URL Redirection to Untrusted Site ('Open Redirect'),200
+CVE-2018-17184,CWE-79,Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting'),200
+CVE-2019-16335,CWE-502,Deserialization of Untrusted Data,200
+CVE-2018-1304,NVD-CWE-noinfo,Insufficient Information,200
+CVE-2019-9827,CWE-918,Server-Side Request Forgery (SSRF),200
+CVE-2020-9297,CWE-917,Improper Neutralization of Special Elements used in an Expression Language Statement ('Expression La,200
+CVE-2018-20157,CWE-611,Improper Restriction of XML External Entity Reference,200
+CVE-2015-4165,CWE-264,"Permissions, Privileges, and Access Controls",200
+CVE-2013-4002,NVD-CWE-noinfo,Insufficient Information,200
+CVE-2015-5253,CWE-264,"Permissions, Privileges, and Access Controls",200
+CVE-2018-1114,CWE-400,Uncontrolled Resource Consumption,200
+CVE-2018-6331,CWE-502,Deserialization of Untrusted Data,200
+CVE-2016-2402,CWE-295,Improper Certificate Validation,200
+CVE-2018-12418,CWE-835,Loop with Unreachable Exit Condition ('Infinite Loop'),200
+CVE-2016-0731,CWE-284,Improper Access Control,200
+CVE-2011-2087,CWE-79,Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting'),200
+CVE-2015-5254,CWE-20,Improper Input Validation,200
+CVE-2014-0002,CWE-264,"Permissions, Privileges, and Access Controls",200
+CVE-2020-5229,CWE-327,Use of a Broken or Risky Cryptographic Algorithm,200
+CVE-2019-10219,CWE-79,Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting'),200
+CVE-2018-6594,CWE-326,Inadequate Encryption Strength,200
+CVE-2018-1321,CWE-20,Improper Input Validation,200
+CVE-2020-13973,CWE-79,Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting'),200
+CVE-2018-14371,CWE-22,Improper Limitation of a Pathname to a Restricted Directory ('Path Traversal'),200
+CVE-2018-1317,CWE-287,Improper Authentication,200
+CVE-2017-17485,CWE-502,Deserialization of Untrusted Data,200
+CVE-2018-17197,CWE-835,Loop with Unreachable Exit Condition ('Infinite Loop'),200
+CVE-2015-3192,CWE-119,Improper Restriction of Operations within the Bounds of a Memory Buffer,200
+CVE-2012-0392,NVD-CWE-noinfo,Insufficient Information,200
+CVE-2020-11620,CWE-502,Deserialization of Untrusted Data,200
+CVE-2016-3720,NVD-CWE-noinfo,Insufficient Information,200
+CVE-2017-7662,CWE-352,Cross-Site Request Forgery (CSRF),200
+CVE-2019-16943,CWE-502,Deserialization of Untrusted Data,200
+CVE-2018-11039,NVD-CWE-noinfo,Insufficient Information,200
+CVE-2017-8028,CWE-287,Improper Authentication,200
+CVE-2015-1830,CWE-22,Improper Limitation of a Pathname to a Restricted Directory ('Path Traversal'),200
+CVE-2015-7559,CWE-20,Improper Input Validation,200
+CVE-2020-13920,CWE-306,Missing Authentication for Critical Function,200
+CVE-2019-10071,CWE-203,Observable Discrepancy,200
+CVE-2019-10243,CWE-200,Exposure of Sensitive Information to an Unauthorized Actor,200
+CVE-2018-8030,CWE-20,Improper Input Validation,200
+CVE-2019-1010245,CWE-20,Improper Input Validation,200
+CVE-2013-5960,CWE-310,Cryptographic Issues,200
+CVE-2015-5209,CWE-20,Improper Input Validation,200
+CVE-2018-8008,CWE-22,Improper Limitation of a Pathname to a Restricted Directory ('Path Traversal'),200
+CVE-2020-25022,CWE-125,Out-of-bounds Read,200
+CVE-2018-11802,CWE-863,Incorrect Authorization,200
+CVE-2014-0094,NVD-CWE-noinfo,Insufficient Information,200
+CVE-2018-8037,CWE-362,Concurrent Execution using Shared Resource with Improper Synchronization ('Race Condition'),200
+CVE-2018-20580,CWE-20,Improper Input Validation,200
+CVE-2016-9878,CWE-22,Improper Limitation of a Pathname to a Restricted Directory ('Path Traversal'),200
+CVE-2017-12159,CWE-613,Insufficient Session Expiration,200
+CVE-2018-1000134,CWE-521,Weak Password Requirements,200
+CVE-2020-5242,CWE-863,Incorrect Authorization,200
+CVE-2013-1966,CWE-94,Improper Control of Generation of Code ('Code Injection'),200
+CVE-2020-5289,CWE-552,Files or Directories Accessible to External Parties,200
+CVE-2020-9488,CWE-295,Improper Certificate Validation,200
+CVE-2020-5245,CWE-74,Improper Neutralization of Special Elements in Output Used by a Downstream Component ('Injection'),200
+CVE-2019-10078,CWE-79,Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting'),200
+CVE-2017-1000486,CWE-326,Inadequate Encryption Strength,200
+CVE-2015-6644,CWE-200,Exposure of Sensitive Information to an Unauthorized Actor,200
+CVE-2012-0393,CWE-264,"Permissions, Privileges, and Access Controls",200
+CVE-2018-17196,NVD-CWE-noinfo,Insufficient Information,200
+CVE-2016-0706,CWE-200,Exposure of Sensitive Information to an Unauthorized Actor,200
+CVE-2020-14195,CWE-502,Deserialization of Untrusted Data,200
+CVE-2020-11619,CWE-502,Deserialization of Untrusted Data,200
+CVE-2017-8045,CWE-502,Deserialization of Untrusted Data,200
+CVE-2011-2088,CWE-200,Exposure of Sensitive Information to an Unauthorized Actor,200
+CVE-2017-9735,CWE-203,Observable Discrepancy,200
+CVE-2012-0394,CWE-94,Improper Control of Generation of Code ('Code Injection'),200
+CVE-2014-0003,CWE-264,"Permissions, Privileges, and Access Controls",200
+CVE-2018-17198,CWE-918,Server-Side Request Forgery (SSRF),200
+CVE-2015-8581,,,-10
+CVE-2018-5773,CWE-79,Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting'),200
+CVE-2018-1327,NVD-CWE-noinfo,Insufficient Information,200
+CVE-2018-1002201,CWE-22,Improper Limitation of a Pathname to a Restricted Directory ('Path Traversal'),200
+CVE-2013-0248,CWE-264,"Permissions, Privileges, and Access Controls",200
+CVE-2018-8038,CWE-20,Improper Input Validation,200
+CVE-2019-17638,CWE-672,Operation on a Resource after Expiration or Release,200
+CVE-2020-5412,CWE-610,Externally Controlled Reference to a Resource in Another Sphere,200
+CVE-2020-9489,CWE-835,Loop with Unreachable Exit Condition ('Infinite Loop'),200
+CVE-2018-21234,CWE-502,Deserialization of Untrusted Data,200
+CVE-2019-3797,CWE-200,Exposure of Sensitive Information to an Unauthorized Actor,200
+CVE-2016-6652,CWE-89,Improper Neutralization of Special Elements used in an SQL Command ('SQL Injection'),200
+CVE-2014-1972,CWE-399,Resource Management Errors,200
+CVE-2017-15719,CWE-79,Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting'),200
+CVE-2018-18389,CWE-287,Improper Authentication,200
+CVE-2013-6348,CWE-79,Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting'),200
+CVE-2015-1836,CWE-284,Improper Access Control,200
+CVE-2020-25023,CWE-787,Out-of-bounds Write,200
+CVE-2018-8009,CWE-22,Improper Limitation of a Pathname to a Restricted Directory ('Path Traversal'),200
+CVE-2016-9879,CWE-417,Communication Channel Errors,200
+CVE-2019-10083,CWE-200,Exposure of Sensitive Information to an Unauthorized Actor,200
+CVE-2019-10077,CWE-79,Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting'),200
+CVE-2016-6809,CWE-502,Deserialization of Untrusted Data,200
+CVE-2019-16942,CWE-502,Deserialization of Untrusted Data,200
+CVE-2015-1831,NVD-CWE-noinfo,Insufficient Information,200
+CVE-2016-10750,CWE-502,Deserialization of Untrusted Data,200
+CVE-2019-10242,CWE-22,Improper Limitation of a Pathname to a Restricted Directory ('Path Traversal'),200
+CVE-2019-3799,CWE-22,Improper Limitation of a Pathname to a Restricted Directory ('Path Traversal'),200
+CVE-2020-9480,CWE-306,Missing Authentication for Critical Function,200
+CVE-2020-13921,CWE-89,Improper Neutralization of Special Elements used in an SQL Command ('SQL Injection'),200
+CVE-2017-15691,CWE-611,Improper Restriction of XML External Entity Reference,200
+CVE-2014-0114,CWE-20,Improper Input Validation,200
+CVE-2019-10754,CWE-338,Use of Cryptographically Weak Pseudo-Random Number Generator (PRNG),200
+CVE-2018-12536,NVD-CWE-noinfo,Insufficient Information,200
+CVE-2015-5170,CWE-352,Cross-Site Request Forgery (CSRF),200
+CVE-2019-3875,CWE-295,Improper Certificate Validation,200
+CVE-2017-5644,CWE-776,Improper Restriction of Recursive Entity References in DTDs ('XML Entity Expansion'),200
+CVE-2019-15477,CWE-79,Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting'),200
+CVE-2014-0113,CWE-264,"Permissions, Privileges, and Access Controls",200
+CVE-2013-5679,CWE-310,Cryptographic Issues,200
+CVE-2017-5643,CWE-918,Server-Side Request Forgery (SSRF),200
+CVE-2020-8840,CWE-502,Deserialization of Untrusted Data,200
+CVE-2013-7315,CWE-264,"Permissions, Privileges, and Access Controls",200
+CVE-2018-1000844,CWE-611,Improper Restriction of XML External Entity Reference,200
+CVE-2015-2156,CWE-20,Improper Input Validation,200
+CVE-2018-12538,CWE-384,Session Fixation,200
+CVE-2019-7619,NVD-CWE-noinfo,Insufficient Information,200
+CVE-2019-10908,CWE-335,Incorrect Usage of Seeds in Pseudo-Random Number Generator (PRNG),200
+CVE-2020-1937,CWE-89,Improper Neutralization of Special Elements used in an SQL Command ('SQL Injection'),200
+CVE-2019-3888,CWE-532,Insertion of Sensitive Information into Log File,200
+CVE-2016-2141,NVD-CWE-noinfo,Insufficient Information,200
+CVE-2018-1000616,CWE-611,Improper Restriction of XML External Entity Reference,200
+CVE-2019-0201,CWE-862,Missing Authorization,200
+CVE-2018-1067,CWE-113,Improper Neutralization of CRLF Sequences in HTTP Headers ('HTTP Response Splitting'),200
+CVE-2013-1879,CWE-79,Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting'),200
+CVE-2019-11274,CWE-79,Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting'),200
+CVE-2017-12610,CWE-287,Improper Authentication,200
+CVE-2019-17513,CWE-74,Improper Neutralization of Special Elements in Output Used by a Downstream Component ('Injection'),200
+CVE-2020-1963,CWE-862,Missing Authorization,200
+CVE-2019-12402,CWE-835,Loop with Unreachable Exit Condition ('Infinite Loop'),200
+CVE-2013-4366,CWE-20,Improper Input Validation,200
+CVE-2020-10672,NVD-CWE-Other,Other,200
+CVE-2020-10686,CWE-863,Incorrect Authorization,200
+CVE-2020-5398,CWE-494,Download of Code Without Integrity Check,200
+CVE-2018-11784,CWE-601,URL Redirection to Untrusted Site ('Open Redirect'),200
+CVE-2020-1952,CWE-295,Improper Certificate Validation,200
+CVE-2013-6407,NVD-CWE-noinfo,Insufficient Information,200
+CVE-2018-1263,CWE-22,Improper Limitation of a Pathname to a Restricted Directory ('Path Traversal'),200
+CVE-2019-9518,CWE-770,Allocation of Resources Without Limits or Throttling,200
+CVE-2017-2638,CWE-287,Improper Authentication,200
+CVE-2018-11777,NVD-CWE-noinfo,Insufficient Information,200
+CVE-2017-4963,CWE-384,Session Fixation,200
+CVE-2017-12626,CWE-835,Loop with Unreachable Exit Condition ('Infinite Loop'),200
+CVE-2016-9190,CWE-284,Improper Access Control,200
+CVE-2019-10364,CWE-532,Insertion of Sensitive Information into Log File,200
+CVE-2015-0263,NVD-CWE-Other,Other,200
+CVE-2019-10797,NVD-CWE-Other,Other,200
+CVE-2019-20330,CWE-502,Deserialization of Untrusted Data,200
+CVE-2020-11996,NVD-CWE-noinfo,Insufficient Information,200
+CVE-2015-0264,NVD-CWE-Other,Other,200
+CVE-2019-18394,CWE-918,Server-Side Request Forgery (SSRF),200
+CVE-2016-7051,CWE-918,Server-Side Request Forgery (SSRF),200
+CVE-2020-24616,CWE-502,Deserialization of Untrusted Data,200
+CVE-2014-3558,CWE-264,"Permissions, Privileges, and Access Controls",200
+CVE-2014-0112,CWE-264,"Permissions, Privileges, and Access Controls",200
+CVE-2020-7238,CWE-444,Inconsistent Interpretation of HTTP Requests ('HTTP Request Smuggling'),200
+CVE-2018-10055,CWE-119,Improper Restriction of Operations within the Bounds of a Memory Buffer,200
+CVE-2018-1000873,CWE-20,Improper Input Validation,200
+CVE-2015-5344,CWE-19,Data Processing Errors,200
+CVE-2020-12719,CWE-611,Improper Restriction of XML External Entity Reference,200
+CVE-2017-13309,,,-10
+CVE-2020-1938,CWE-269,Improper Privilege Management,200
+CVE-2019-10907,CWE-326,Inadequate Encryption Strength,200
+CVE-2017-18349,CWE-20,Improper Input Validation,200
+CVE-2015-5171,CWE-613,Insufficient Session Expiration,200
+CVE-2021-44832,CWE-20,Improper Input Validation,200
+CVE-2020-11998,NVD-CWE-noinfo,Insufficient Information,200
+CVE-2020-10244,CWE-326,Inadequate Encryption Strength,200
+CVE-2017-5645,CWE-502,Deserialization of Untrusted Data,200
+CVE-2018-1262,NVD-CWE-noinfo,Insufficient Information,200
+CVE-2020-1954,NVD-CWE-noinfo,Insufficient Information,200
+CVE-2015-0201,CWE-254,7PK - Security Features,200
+CVE-2018-1000820,CWE-611,Improper Restriction of XML External Entity Reference,200
+CVE-2018-11776,CWE-20,Improper Input Validation,200
+CVE-2018-14658,CWE-601,URL Redirection to Untrusted Site ('Open Redirect'),200
+CVE-2019-0231,CWE-319,Cleartext Transmission of Sensitive Information,200
+CVE-2017-7525,CWE-502,Deserialization of Untrusted Data,200
+CVE-2016-0818,CWE-345,Insufficient Verification of Data Authenticity,200
+CVE-2020-10673,NVD-CWE-Other,Other,200
+CVE-2018-11771,CWE-835,Loop with Unreachable Exit Condition ('Infinite Loop'),200
+CVE-2017-15095,CWE-502,Deserialization of Untrusted Data,200
+CVE-2020-1953,NVD-CWE-noinfo,Insufficient Information,200
+CVE-2019-0207,CWE-22,Improper Limitation of a Pathname to a Restricted Directory ('Path Traversal'),200
+CVE-2017-3523,NVD-CWE-noinfo,Insufficient Information,200
+CVE-2020-4070,CWE-79,Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting'),200
+CVE-2017-12629,CWE-611,Improper Restriction of XML External Entity Reference,200
+CVE-2013-6430,CWE-79,Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting'),200
+CVE-2019-11272,CWE-522,Insufficiently Protected Credentials,200
+CVE-2018-20000,CWE-611,Improper Restriction of XML External Entity Reference,200
+CVE-2018-1298,CWE-20,Improper Input Validation,200
+CVE-2020-5397,CWE-352,Cross-Site Request Forgery (CSRF),200
+CVE-2013-6408,NVD-CWE-noinfo,Insufficient Information,200
+CVE-2019-0200,NVD-CWE-noinfo,Insufficient Information,200
+CVE-2013-2251,CWE-20,Improper Input Validation,200
+CVE-2017-12611,CWE-20,Improper Input Validation,200
+CVE-2015-1775,NVD-CWE-Other,Other,200
+CVE-2013-4152,CWE-264,"Permissions, Privileges, and Access Controls",200
+CVE-2020-7226,CWE-770,Allocation of Resources Without Limits or Throttling,200
+CVE-2016-3076,CWE-119,Improper Restriction of Operations within the Bounds of a Memory Buffer,200
+CVE-2020-14060,CWE-502,Deserialization of Untrusted Data,200
+CVE-2018-7577,CWE-20,Improper Input Validation,200
+CVE-2016-6194,,,-10
+CVE-2019-17569,CWE-444,Inconsistent Interpretation of HTTP Requests ('HTTP Request Smuggling'),200
+CVE-2016-3082,CWE-20,Improper Input Validation,200
+CVE-2020-11975,NVD-CWE-noinfo,Insufficient Information,200
+CVE-2014-3584,CWE-399,Resource Management Errors,200
+CVE-2019-17556,CWE-502,Deserialization of Untrusted Data,200
+CVE-2016-2533,CWE-119,Improper Restriction of Operations within the Bounds of a Memory Buffer,200
+CVE-2020-11972,CWE-502,Deserialization of Untrusted Data,200
+CVE-2017-9096,CWE-611,Improper Restriction of XML External Entity Reference,200
+CVE-2015-3253,CWE-74,Improper Neutralization of Special Elements in Output Used by a Downstream Component ('Injection'),200
+CVE-2020-1928,CWE-532,Insertion of Sensitive Information into Log File,200
+CVE-2019-17558,CWE-74,Improper Neutralization of Special Elements in Output Used by a Downstream Component ('Injection'),200
+CVE-2017-7561,CWE-444,Inconsistent Interpretation of HTTP Requests ('HTTP Request Smuggling'),200
+CVE-2021-29425,CWE-22,Improper Limitation of a Pathname to a Restricted Directory ('Path Traversal'),200
+CVE-2019-14540,CWE-502,Deserialization of Untrusted Data,200
+CVE-2016-4433,CWE-20,Improper Input Validation,200
+CVE-2016-2192,CWE-269,Improper Privilege Management,200
+CVE-2014-3579,CWE-611,Improper Restriction of XML External Entity Reference,200
+CVE-2020-1745,NVD-CWE-noinfo,Insufficient Information,200
+CVE-2016-4800,CWE-284,Improper Access Control,200
+CVE-2018-15756,NVD-CWE-noinfo,Insufficient Information,200
+CVE-2019-12422,NVD-CWE-noinfo,Insufficient Information,200
+CVE-2017-3159,CWE-502,Deserialization of Untrusted Data,200
+CVE-2018-19362,CWE-502,Deserialization of Untrusted Data,200
+CVE-2018-1272,NVD-CWE-noinfo,Insufficient Information,200
+CVE-2019-0226,CWE-22,Improper Limitation of a Pathname to a Restricted Directory ('Path Traversal'),200
+CVE-2017-3166,CWE-732,Incorrect Permission Assignment for Critical Resource,200
+CVE-2013-2248,CWE-20,Improper Input Validation,200
+CVE-2017-9804,CWE-20,Improper Input Validation,200
+CVE-2012-5785,CWE-20,Improper Input Validation,200
+CVE-2020-1729,CWE-863,Incorrect Authorization,200
+CVE-2018-11761,CWE-611,Improper Restriction of XML External Entity Reference,200
+CVE-2017-9803,CWE-287,Improper Authentication,200
+CVE-2019-13990,CWE-611,Improper Restriction of XML External Entity Reference,200
+CVE-2020-11113,CWE-502,Deserialization of Untrusted Data,200
+CVE-2018-1275,CWE-358,Improperly Implemented Security Check for Standard,200
+CVE-2019-0221,CWE-79,Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting'),200
+CVE-2013-6429,CWE-611,Improper Restriction of XML External Entity Reference,200
+CVE-2018-17202,CWE-835,Loop with Unreachable Exit Condition ('Infinite Loop'),200
+CVE-2015-1796,CWE-254,7PK - Security Features,200
+CVE-2018-12542,CWE-22,Improper Limitation of a Pathname to a Restricted Directory ('Path Traversal'),200
+CVE-2018-1288,NVD-CWE-noinfo,Insufficient Information,200
+CVE-2018-20222,CWE-611,Improper Restriction of XML External Entity Reference,200
+CVE-2019-17195,CWE-755,Improper Handling of Exceptional Conditions,200
+CVE-2018-15758,NVD-CWE-noinfo,Insufficient Information,200
+CVE-2020-7611,CWE-444,Inconsistent Interpretation of HTTP Requests ('HTTP Request Smuggling'),200
+CVE-2018-11768,CWE-119,Improper Restriction of Operations within the Bounds of a Memory Buffer,200
+CVE-2014-0193,CWE-399,Resource Management Errors,200
+CVE-2016-3674,CWE-200,Exposure of Sensitive Information to an Unauthorized Actor,200
+CVE-2017-5637,CWE-400,Uncontrolled Resource Consumption,200
+CVE-2020-1727,CWE-20,Improper Input Validation,200
+CVE-2020-11989,NVD-CWE-noinfo,Insufficient Information,200
+CVE-2014-3578,CWE-22,Improper Limitation of a Pathname to a Restricted Directory ('Path Traversal'),200
+CVE-2020-1744,CWE-755,Improper Handling of Exceptional Conditions,200
+CVE-2019-11808,CWE-338,Use of Cryptographically Weak Pseudo-Random Number Generator (PRNG),200
+CVE-2017-5653,CWE-295,Improper Certificate Validation,200
+CVE-2020-1929,CWE-295,Improper Certificate Validation,200
+CVE-2015-6524,CWE-255,Credentials Management Errors,200
+CVE-2019-17566,CWE-918,Server-Side Request Forgery (SSRF),200
+CVE-2016-3084,CWE-264,"Permissions, Privileges, and Access Controls",200
+CVE-2020-11973,CWE-502,Deserialization of Untrusted Data,200
+CVE-2018-1000854,CWE-74,Improper Neutralization of Special Elements in Output Used by a Downstream Component ('Injection'),200
+CVE-2014-3576,CWE-264,"Permissions, Privileges, and Access Controls",200
+CVE-2018-7576,CWE-476,NULL Pointer Dereference,200
+CVE-2020-14061,CWE-502,Deserialization of Untrusted Data,200
+CVE-2020-11980,CWE-918,Server-Side Request Forgery (SSRF),200
+CVE-2016-10006,CWE-79,Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting'),200
+CVE-2018-18628,CWE-502,Deserialization of Untrusted Data,200
+CVE-2019-12415,CWE-611,Improper Restriction of XML External Entity Reference,200
+CVE-2018-15761,NVD-CWE-noinfo,Insufficient Information,200
+CVE-2018-12544,CWE-611,Improper Restriction of XML External Entity Reference,200
+CVE-2019-10184,CWE-862,Missing Authorization,200
+CVE-2016-9189,CWE-190,Integer Overflow or Wraparound,200
+CVE-2018-19352,CWE-79,Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting'),200
+CVE-2017-3156,NVD-CWE-noinfo,Insufficient Information,200
+CVE-2017-5638,CWE-20,Improper Input Validation,200
+CVE-2017-12631,CWE-352,Cross-Site Request Forgery (CSRF),200
+CVE-2020-1942,CWE-532,Insertion of Sensitive Information into Log File,200
+CVE-2022-22965,CWE-94,Improper Control of Generation of Code ('Code Injection'),200
+CVE-2014-0168,CWE-352,Cross-Site Request Forgery (CSRF),200
+CVE-2018-1274,CWE-770,Allocation of Resources Without Limits or Throttling,200
+CVE-2020-11112,CWE-502,Deserialization of Untrusted Data,200
+CVE-2019-12423,CWE-522,Insufficiently Protected Credentials,200
+CVE-2016-0831,CWE-200,Exposure of Sensitive Information to an Unauthorized Actor,200
+CVE-2020-1945,CWE-668,Exposure of Resource to Wrong Sphere,200
+CVE-2017-9805,CWE-502,Deserialization of Untrusted Data,200
+CVE-2015-3208,CWE-611,Improper Restriction of XML External Entity Reference,200
+CVE-2017-2617,CWE-434,Unrestricted Upload of File with Dangerous Type,200
+CVE-2018-11758,CWE-611,Improper Restriction of XML External Entity Reference,200
+CVE-2018-1273,CWE-20,Improper Input Validation,200
+CVE-2016-8749,CWE-502,Deserialization of Untrusted Data,200
+CVE-2019-0193,CWE-94,Improper Control of Generation of Code ('Code Injection'),200
+CVE-2018-17186,CWE-611,Improper Restriction of XML External Entity Reference,200
+CVE-2019-14838,CWE-269,Improper Privilege Management,200
+CVE-2014-7809,CWE-352,Cross-Site Request Forgery (CSRF),200
+CVE-2019-0194,CWE-22,Improper Limitation of a Pathname to a Restricted Directory ('Path Traversal'),200
+CVE-2018-1306,CWE-200,Exposure of Sensitive Information to an Unauthorized Actor,200
+CVE-2017-5929,CWE-502,Deserialization of Untrusted Data,200
+CVE-2020-10719,CWE-444,Inconsistent Interpretation of HTTP Requests ('HTTP Request Smuggling'),200
+CVE-2020-1698,CWE-532,Insertion of Sensitive Information into Log File,200
+CVE-2020-13954,CWE-79,Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting'),200
+CVE-2018-1337,CWE-200,Exposure of Sensitive Information to an Unauthorized Actor,200
+CVE-2018-8088,NVD-CWE-noinfo,Insufficient Information,200
+CVE-2016-1000340,CWE-19,Data Processing Errors,200
+CVE-2018-1308,CWE-611,Improper Restriction of XML External Entity Reference,200
+CVE-2019-11772,CWE-787,Out-of-bounds Write,200
+CVE-2018-8017,CWE-835,Loop with Unreachable Exit Condition ('Infinite Loop'),200
+CVE-2020-5402,CWE-352,Cross-Site Request Forgery (CSRF),200
+CVE-2019-3774,CWE-611,Improper Restriction of XML External Entity Reference,200
+CVE-2017-18640,CWE-776,Improper Restriction of Recursive Entity References in DTDs ('XML Entity Expansion'),200
+CVE-2019-3773,CWE-611,Improper Restriction of XML External Entity Reference,200
+CVE-2017-15709,CWE-200,Exposure of Sensitive Information to an Unauthorized Actor,200
+CVE-2019-3787,CWE-640,Weak Password Recovery Mechanism for Forgotten Password,200
+CVE-2020-5405,CWE-22,Improper Limitation of a Pathname to a Restricted Directory ('Path Traversal'),200
+CVE-2020-11002,CWE-74,Improper Neutralization of Special Elements in Output Used by a Downstream Component ('Injection'),200
+CVE-2018-8026,CWE-611,Improper Restriction of XML External Entity Reference,200
+CVE-2014-3600,CWE-611,Improper Restriction of XML External Entity Reference,200
+CVE-2019-10093,CWE-770,Allocation of Resources Without Limits or Throttling,200
+CVE-2018-8825,CWE-119,Improper Restriction of Operations within the Bounds of a Memory Buffer,200
+CVE-2019-10094,CWE-770,Allocation of Resources Without Limits or Throttling,200
+CVE-2018-19413,CWE-200,Exposure of Sensitive Information to an Unauthorized Actor,200
+CVE-2017-8039,CWE-1188,Insecure Default Initialization of Resource,200
+CVE-2019-6002,CWE-79,Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting'),200
+CVE-2016-1000341,CWE-361,7PK - Time and State,200
+CVE-2018-1336,CWE-835,Loop with Unreachable Exit Condition ('Infinite Loop'),200
+CVE-2020-11050,CWE-295,Improper Certificate Validation,200
+CVE-2018-1309,CWE-611,Improper Restriction of XML External Entity Reference,200
+CVE-2018-1331,NVD-CWE-noinfo,Insufficient Information,200
+CVE-2020-11057,CWE-94,Improper Control of Generation of Code ('Code Injection'),200
+CVE-2020-5206,CWE-287,Improper Authentication,200
+CVE-2016-2415,CWE-200,Exposure of Sensitive Information to an Unauthorized Actor,200
+CVE-2016-1000346,CWE-320,Key Management Errors,200
+CVE-2020-10727,CWE-522,Insufficiently Protected Credentials,200
+CVE-2018-11087,CWE-295,Improper Certificate Validation,200
+CVE-2012-6612,NVD-CWE-noinfo,Insufficient Information,200
+CVE-2018-11248,CWE-22,Improper Limitation of a Pathname to a Restricted Directory ('Path Traversal'),200
+CVE-2020-5230,CWE-74,Improper Neutralization of Special Elements in Output Used by a Downstream Component ('Injection'),200
+CVE-2014-0229,CWE-264,"Permissions, Privileges, and Access Controls",200
+CVE-2011-1411,CWE-287,Improper Authentication,200
+CVE-2019-0192,CWE-502,Deserialization of Untrusted Data,200
+CVE-2010-0684,CWE-79,Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting'),200
+CVE-2017-7672,CWE-20,Improper Input Validation,200
+CVE-2020-1697,CWE-79,Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting'),200
+CVE-2021-22118,CWE-269,Improper Privilege Management,200
+CVE-2018-17785,CWE-22,Improper Limitation of a Pathname to a Restricted Directory ('Path Traversal'),200
+CVE-2019-3788,CWE-601,URL Redirection to Untrusted Site ('Open Redirect'),200
+CVE-2008-6682,CWE-79,Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting'),200
+CVE-2019-12399,CWE-319,Cleartext Transmission of Sensitive Information,200
+CVE-2017-8038,NVD-CWE-noinfo,Insufficient Information,200
+CVE-2018-8027,CWE-611,Improper Restriction of XML External Entity Reference,200
+CVE-2017-1000498,CWE-611,Improper Restriction of XML External Entity Reference,200
+CVE-2010-3260,CWE-264,"Permissions, Privileges, and Access Controls",200
+CVE-2018-8018,CWE-502,Deserialization of Untrusted Data,200
+CVE-2020-5404,CWE-522,Insufficiently Protected Credentials,200
+CVE-2019-3772,CWE-611,Improper Restriction of XML External Entity Reference,200
+CVE-2013-7285,CWE-78,Improper Neutralization of Special Elements used in an OS Command ('OS Command Injection'),200
+CVE-2019-11343,NVD-CWE-noinfo,Insufficient Information,200
+CVE-2017-8031,NVD-CWE-noinfo,Insufficient Information,200
+CVE-2019-3775,CWE-287,Improper Authentication,200
+CVE-2016-0775,CWE-119,Improper Restriction of Operations within the Bounds of a Memory Buffer,200
+CVE-2016-0781,CWE-79,Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting'),200
+CVE-2021-33037,CWE-444,Inconsistent Interpretation of HTTP Requests ('HTTP Request Smuggling'),200
+CVE-2020-5403,CWE-755,Improper Handling of Exceptional Conditions,200
+CVE-2016-5641,,,-10
+CVE-2020-5421,NVD-CWE-noinfo,Insufficient Information,200
+CVE-2020-25021,CWE-787,Out-of-bounds Write,200
+CVE-2014-0097,CWE-287,Improper Authentication,200
+CVE-2018-8034,CWE-295,Improper Certificate Validation,200
+CVE-2014-3612,CWE-287,Improper Authentication,200
+CVE-2016-0768,CWE-284,Improper Access Control,200
+CVE-2019-10247,CWE-200,Exposure of Sensitive Information to an Unauthorized Actor,200
+CVE-2018-19859,CWE-22,Improper Limitation of a Pathname to a Restricted Directory ('Path Traversal'),200
+CVE-2018-17796,CWE-89,Improper Neutralization of Special Elements used in an SQL Command ('SQL Injection'),200
+CVE-2019-10086,CWE-502,Deserialization of Untrusted Data,200
+CVE-2019-10072,CWE-667,Improper Locking,200
+CVE-2018-12022,CWE-502,Deserialization of Untrusted Data,200
+CVE-2019-17633,CWE-352,Cross-Site Request Forgery (CSRF),200
+CVE-2020-5410,CWE-22,Improper Limitation of a Pathname to a Restricted Directory ('Path Traversal'),200
+CVE-2018-1000130,CWE-74,Improper Neutralization of Special Elements in Output Used by a Downstream Component ('Injection'),200
+CVE-2017-12196,CWE-863,Incorrect Authorization,200
+CVE-2016-6802,CWE-284,Improper Access Control,200
+CVE-2015-5204,NVD-CWE-Other,Other,200
+CVE-2016-1000339,CWE-310,Cryptographic Issues,200
+CVE-2019-10088,CWE-770,Allocation of Resources Without Limits or Throttling,200
+CVE-2013-1965,CWE-94,Improper Control of Generation of Code ('Code Injection'),200
+CVE-2019-3795,CWE-330,Use of Insufficiently Random Values,200
+CVE-2019-12384,CWE-502,Deserialization of Untrusted Data,200
+CVE-2016-6805,CWE-611,Improper Restriction of XML External Entity Reference,200
+CVE-2013-2115,CWE-94,Improper Control of Generation of Code ('Code Injection'),200
+CVE-2019-18874,CWE-415,Double Free,200
+CVE-2020-13946,CWE-668,Exposure of Resource to Wrong Sphere,200
+CVE-2018-14720,CWE-502,Deserialization of Untrusted Data,200
+CVE-2020-11612,CWE-770,Allocation of Resources Without Limits or Throttling,200
+CVE-2018-1322,CWE-200,Exposure of Sensitive Information to an Unauthorized Actor,200
+CVE-2018-7489,CWE-502,Deserialization of Untrusted Data,200
+CVE-2020-13941,CWE-20,Improper Input Validation,200
+CVE-2006-1548,NVD-CWE-Other,Other,200
+CVE-2018-1325,CWE-79,Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting'),200
+CVE-2017-7657,CWE-444,Inconsistent Interpretation of HTTP Requests ('HTTP Request Smuggling'),200
+CVE-2018-14718,CWE-502,Deserialization of Untrusted Data,200
+CVE-2016-1000352,CWE-310,Cryptographic Issues,200
+CVE-2012-6092,CWE-79,Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting'),200
+CVE-2018-17194,CWE-20,Improper Input Validation,200
+CVE-2012-0391,CWE-20,Improper Input Validation,200
+CVE-2017-7661,CWE-352,Cross-Site Request Forgery (CSRF),200
+CVE-2020-10705,CWE-770,Allocation of Resources Without Limits or Throttling,200
+CVE-2018-17193,CWE-79,Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting'),200
+CVE-2014-9515,CWE-502,Deserialization of Untrusted Data,200
+CVE-2019-10648,CWE-862,Missing Authorization,200
+CVE-2020-10968,CWE-502,Deserialization of Untrusted Data,200
+CVE-2006-1546,NVD-CWE-Other,Other,200
+CVE-2014-0054,CWE-352,Cross-Site Request Forgery (CSRF),200
+CVE-2019-17267,CWE-502,Deserialization of Untrusted Data,200
+CVE-2014-3625,CWE-22,Improper Limitation of a Pathname to a Restricted Directory ('Path Traversal'),200
+CVE-2018-15801,CWE-345,Insufficient Verification of Data Authenticity,200
+CVE-2018-1002202,CWE-22,Improper Limitation of a Pathname to a Restricted Directory ('Path Traversal'),200
+CVE-2016-8738,CWE-20,Improper Input Validation,200
+CVE-2020-5411,CWE-502,Deserialization of Untrusted Data,200
+CVE-2016-1000338,CWE-347,Improper Verification of Cryptographic Signature,200
+CVE-2019-19135,CWE-330,Use of Insufficiently Random Values,200
+CVE-2018-5382,CWE-354,Improper Validation of Integrity Check Value,200
+CVE-2018-20318,CWE-611,Improper Restriction of XML External Entity Reference,200
+CVE-2019-10241,CWE-79,Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting'),200
+CVE-2013-4286,CWE-20,Improper Input Validation,200
+CVE-2018-12023,CWE-502,Deserialization of Untrusted Data,200
+CVE-2019-17632,CWE-79,Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting'),200
+CVE-2019-10087,CWE-79,Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting'),200
+CVE-2020-9483,CWE-89,Improper Neutralization of Special Elements used in an SQL Command ('SQL Injection'),200
+CVE-2020-25020,CWE-611,Improper Restriction of XML External Entity Reference,200
+CVE-2020-10591,NVD-CWE-noinfo,Insufficient Information,200
+CVE-2020-24750,CWE-502,Deserialization of Untrusted Data,200
+CVE-2016-5016,CWE-295,Improper Certificate Validation,200
+CVE-2017-14063,CWE-20,Improper Input Validation,200
+CVE-2019-10080,CWE-611,Improper Restriction of XML External Entity Reference,200
+CVE-2021-30468,CWE-835,Loop with Unreachable Exit Condition ('Infinite Loop'),200
+CVE-2019-10246,CWE-200,Exposure of Sensitive Information to an Unauthorized Actor,200
+CVE-2017-8046,CWE-20,Improper Input Validation,200
+CVE-2018-17192,CWE-1021,Improper Restriction of Rendered UI Layers or Frames,200
+CVE-2013-4221,CWE-91,XML Injection (aka Blind XPath Injection),200
+CVE-2017-7658,CWE-444,Inconsistent Interpretation of HTTP Requests ('HTTP Request Smuggling'),200
+CVE-2006-1547,NVD-CWE-Other,Other,200
+CVE-2020-5222,CWE-798,Use of Hard-coded Credentials,200
+CVE-2020-10969,CWE-502,Deserialization of Untrusted Data,200
+CVE-2011-4343,CWE-200,Exposure of Sensitive Information to an Unauthorized Actor,200
+CVE-2018-17195,CWE-319,Cleartext Transmission of Sensitive Information,200
+CVE-2015-5258,CWE-352,Cross-Site Request Forgery (CSRF),200
+CVE-2017-7660,CWE-287,Improper Authentication,200
+CVE-2015-2080,CWE-200,Exposure of Sensitive Information to an Unauthorized Actor,200
+CVE-2014-3682,NVD-CWE-Other,Other,200
+CVE-2017-12795,CWE-20,Improper Input Validation,200
+CVE-2017-7669,CWE-20,Improper Input Validation,200
+CVE-2017-7656,NVD-CWE-noinfo,Insufficient Information,200
+CVE-2018-1324,CWE-835,Loop with Unreachable Exit Condition ('Infinite Loop'),200
+CVE-2018-14719,CWE-502,Deserialization of Untrusted Data,200
+CVE-2019-16771,CWE-74,Improper Neutralization of Special Elements in Output Used by a Downstream Component ('Injection'),200
+CVE-2018-14721,CWE-918,Server-Side Request Forgery (SSRF),200
+CVE-2019-20445,CWE-444,Inconsistent Interpretation of HTTP Requests ('HTTP Request Smuggling'),200
+CVE-2019-12741,CWE-79,Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting'),200
+CVE-2015-5256,CWE-264,"Permissions, Privileges, and Access Controls",200
+CVE-2014-3488,CWE-119,Improper Restriction of Operations within the Bounds of a Memory Buffer,200
+CVE-2015-8320,NVD-CWE-Other,Other,200
+CVE-2016-0734,CWE-254,7PK - Security Features,200
+CVE-2020-1958,CWE-74,Improper Neutralization of Special Elements in Output Used by a Downstream Component ('Injection'),200
+CVE-2019-9515,CWE-770,Allocation of Resources Without Limits or Throttling,200
+CVE-2019-11284,CWE-522,Insufficiently Protected Credentials,200
+CVE-2019-16869,CWE-444,Inconsistent Interpretation of HTTP Requests ('HTTP Request Smuggling'),200
+CVE-2020-36518,CWE-787,Out-of-bounds Write,200
+CVE-2018-1256,NVD-CWE-noinfo,Insufficient Information,200
+CVE-2011-1772,CWE-79,Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting'),200
+CVE-2019-12406,CWE-770,Allocation of Resources Without Limits or Throttling,200
+CVE-2019-9512,CWE-400,Uncontrolled Resource Consumption,200
+CVE-2020-1960,NVD-CWE-noinfo,Insufficient Information,200
+CVE-2018-1260,CWE-94,Improper Control of Generation of Code ('Code Injection'),200
+CVE-2018-18893,NVD-CWE-noinfo,Insufficient Information,200
+CVE-2020-1956,CWE-78,Improper Neutralization of Special Elements used in an OS Command ('OS Command Injection'),200
+CVE-2017-4960,NVD-CWE-noinfo,Insufficient Information,200
+CVE-2013-1880,CWE-79,Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting'),200
+CVE-2018-11787,CWE-287,Improper Authentication,200
+CVE-2018-1258,CWE-863,Incorrect Authorization,200
+CVE-2017-15695,CWE-863,Incorrect Authorization,200
+CVE-2014-0110,CWE-399,Resource Management Errors,200
+CVE-2016-2173,CWE-20,Improper Input Validation,200
+CVE-2020-11969,CWE-306,Missing Authentication for Critical Function,200
+CVE-2005-3745,NVD-CWE-Other,Other,200
+CVE-2019-17572,CWE-22,Improper Limitation of a Pathname to a Restricted Directory ('Path Traversal'),200
+CVE-2019-10333,CWE-862,Missing Authorization,200
+CVE-2020-7692,CWE-863,Incorrect Authorization,200
+CVE-2016-2510,CWE-19,Data Processing Errors,200
+CVE-2018-19586,CWE-22,Improper Limitation of a Pathname to a Restricted Directory ('Path Traversal'),200
+CVE-2016-2174,CWE-89,Improper Neutralization of Special Elements used in an SQL Command ('SQL Injection'),200
+CVE-2013-2035,CWE-94,Improper Control of Generation of Code ('Code Injection'),200
+CVE-2017-3586,NVD-CWE-noinfo,Insufficient Information,200
+CVE-2018-1000615,NVD-CWE-noinfo,Insufficient Information,200
+CVE-2015-5348,CWE-19,Data Processing Errors,200
+CVE-2020-1933,CWE-79,Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting'),200
+CVE-2019-18362,NVD-CWE-noinfo,Insufficient Information,200
+CVE-2018-10862,CWE-22,Improper Limitation of a Pathname to a Restricted Directory ('Path Traversal'),200
+CVE-2017-7545,CWE-611,Improper Restriction of XML External Entity Reference,200
+CVE-2019-0232,CWE-78,Improper Neutralization of Special Elements used in an OS Command ('OS Command Injection'),200
+CVE-2014-3539,NVD-CWE-noinfo,Insufficient Information,200
+CVE-2019-12409,CWE-434,Unrestricted Upload of File with Dangerous Type,200
+CVE-2018-1259,CWE-611,Improper Restriction of XML External Entity Reference,200
+CVE-2020-1950,CWE-400,Uncontrolled Resource Consumption,200
+CVE-2011-4461,CWE-310,Cryptographic Issues,200
+CVE-2018-1295,CWE-502,Deserialization of Untrusted Data,200
+CVE-2016-8629,CWE-264,"Permissions, Privileges, and Access Controls",200
+CVE-2018-1261,CWE-22,Improper Limitation of a Pathname to a Restricted Directory ('Path Traversal'),200
+CVE-2014-8122,CWE-362,Concurrent Execution using Shared Resource with Improper Synchronization ('Race Condition'),200
+CVE-2020-10683,CWE-611,Improper Restriction of XML External Entity Reference,200
+CVE-2017-12624,NVD-CWE-noinfo,Insufficient Information,200
+CVE-2020-1957,NVD-CWE-noinfo,Insufficient Information,200
+CVE-2018-10237,CWE-770,Allocation of Resources Without Limits or Throttling,200
+CVE-2014-4172,CWE-74,Improper Neutralization of Special Elements in Output Used by a Downstream Component ('Injection'),200
+CVE-2018-11775,CWE-295,Improper Certificate Validation,200
+CVE-2018-11788,CWE-611,Improper Restriction of XML External Entity Reference,200
+CVE-2020-13692,CWE-611,Improper Restriction of XML External Entity Reference,200
+CVE-2018-1257,NVD-CWE-noinfo,Insufficient Information,200
+CVE-2019-11282,CWE-74,Improper Neutralization of Special Elements in Output Used by a Downstream Component ('Injection'),200
+CVE-2017-12612,CWE-502,Deserialization of Untrusted Data,200
+CVE-2020-1961,CWE-74,Improper Neutralization of Special Elements in Output Used by a Downstream Component ('Injection'),200
+CVE-2017-14949,CWE-611,Improper Restriction of XML External Entity Reference,200
+CVE-2015-1776,CWE-200,Exposure of Sensitive Information to an Unauthorized Actor,200
+CVE-2019-5312,CWE-611,Improper Restriction of XML External Entity Reference,200
+CVE-2016-0812,CWE-264,"Permissions, Privileges, and Access Controls",200
+CVE-2019-9514,CWE-770,Allocation of Resources Without Limits or Throttling,200
+CVE-2018-20433,CWE-611,Improper Restriction of XML External Entity Reference,200
+CVE-2013-4330,CWE-94,Improper Control of Generation of Code ('Code Injection'),200
+CVE-2020-1758,CWE-295,Improper Certificate Validation,200
+CVE-2018-1000613,CWE-502,Deserialization of Untrusted Data,200
+CVE-2020-1935,CWE-444,Inconsistent Interpretation of HTTP Requests ('HTTP Request Smuggling'),200
+CVE-2018-1000614,CWE-611,Improper Restriction of XML External Entity Reference,200
+CVE-2019-17573,CWE-79,Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting'),200
+CVE-2015-5172,CWE-640,Weak Password Recovery Mechanism for Forgotten Password,200
+CVE-2018-10899,CWE-352,Cross-Site Request Forgery (CSRF),200
+CVE-2015-3271,CWE-200,Exposure of Sensitive Information to an Unauthorized Actor,200
+CVE-2018-14637,CWE-287,Improper Authentication,200
+CVE-2014-0116,CWE-264,"Permissions, Privileges, and Access Controls",200
+CVE-2018-20059,CWE-611,Improper Restriction of XML External Entity Reference,200
+CVE-2020-7009,CWE-269,Improper Privilege Management,200
+CVE-2017-15694,CWE-88,Improper Neutralization of Argument Delimiters in a Command ('Argument Injection'),200
+CVE-2015-5175,CWE-20,Improper Input Validation,200
+CVE-2015-5347,CWE-79,Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting'),200
+CVE-2017-5641,CWE-502,Deserialization of Untrusted Data,200
+CVE-2012-0881,CWE-399,Resource Management Errors,200
